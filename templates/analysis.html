@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Analysis Dashboard</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Chart.js and Export Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.23/jspdf.plugin.autotable.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f9;
+        }
+
+        .container {
+            margin-top: 30px;
+        }
+
+        .chart-container {
+            margin-bottom: 40px;
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .chart-container canvas {
+            max-height: 400px;
+        }
+
+        .applicant-table {
+            border: 2px solid #007bff;
+            border-radius: 12px;
+            overflow-x: auto; /* Ensure horizontal scrolling */
+            white-space: nowrap; /* Prevent content from wrapping */
+        }
+
+        .applicant-table th, .applicant-table td {
+            padding: 12px;
+            text-align: center;
+        }
+
+        .applicant-table thead {
+            background-color: #007bff;
+            color: white;
+        }
+
+        /* Ensure text wraps correctly in small screens */
+        @media (max-width: 768px) {
+            .applicant-table th, .applicant-table td {
+                font-size: 12px;
+                white-space: normal; /* Allow content wrapping */
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center mb-5" style="background-color: #4CAF50; color: white; padding: 10px; border-radius: 8px;">
+            Analysis Dashboard
+        </h1>
+
+        <!-- Navigation -->
+        <div class="mb-4">
+            <a href="/" class="btn btn-primary">Back to Home</a>
+        </div>
+
+        <!-- Charts Section -->
+        <div class="row">
+            <div class="col-md-6 chart-container">
+                <h2 class="text-center">Male-to-Female Ratio</h2>
+                <canvas id="genderPieChart"></canvas>
+            </div>
+            <div class="col-md-6 chart-container">
+                <h2 class="text-center">Marital Status</h2>
+                <canvas id="maritalStatusPieChart"></canvas>
+            </div>
+        </div>
+
+        <div class="chart-container">
+            <h2 class="text-center">Age Distribution</h2>
+            <canvas id="ageBarChart"></canvas>
+        </div>
+
+        <div class="chart-container">
+            <h2 class="text-center">Loan Purpose Distribution</h2>
+            <canvas id="loanPurposeBarChart"></canvas>
+        </div>
+
+        <div class="chart-container">
+            <h2 class="text-center">Repayment Likelihood</h2>
+            <canvas id="repaymentPieChart"></canvas>
+        </div>
+
+        <!-- Applicant's Data Section -->
+        <div class="container mt-5">
+            <h2 class="text-center mb-4">Applicant's Data</h2>
+
+            <!-- Search and Export Buttons -->
+            <div class="mb-3 d-flex justify-content-between">
+                <input type="text" id="searchInput" class="form-control w-50" placeholder="Search table..." onkeyup="searchTable()">
+                <div>
+                    <button class="btn btn-success" onclick="exportTableToCSV()">Export to CSV</button>
+                    <button class="btn btn-danger" onclick="exportTableToPDF()">Export to PDF</button>
+                    <button class="btn btn-primary" onclick="exportTableToWord()">Export to Word</button>
+                </div>
+            </div>
+
+            <!-- Responsive Applicant Data Table -->
+            <div class="table-responsive applicant-table">
+                <table id="applicantTable" class="table table-bordered table-striped">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Repayment Status</th>
+                            <th>Gender</th>
+                            <th>Age</th>
+                            <th>Marital Status</th>
+                            <th>Dependents</th>
+                            <th>Education</th>
+                            <th>Employment</th>
+                            <th>Applicant Income</th>
+                            <th>Coapplicant Income</th>
+                            <th>Expense</th>
+                            <th>Loan Purpose</th>
+                            <th>Loan Amount</th>
+                            <th>Loan Term (months)</th>
+                            <th>Credit Score</th>
+                            <th>DTI</th>
+                            <th>Property Area</th>
+                            
+                            <th>Date</th>
+                            <th>Time</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td colspan="20">{{ result }}</td>
+                        </tr>
+                        {% for user in user_data %}
+                        <tr>
+                            <td>{{ user.id }}</td>
+                            <td>{{ user.name }}</td>
+                            <td style="color: {% if user.repayment_status.lower() == 'likely to pay' %}#4CAF50{% elif user.repayment_status.lower() == 'unlikely to pay' %}#FF0000{% endif %};">
+                                {{ user.repayment_status }}
+                            </td>
+                            
+                            <td>{{ user.gender }}</td>
+                            <td>{{ user.age }}</td>
+                            <td>{{ user.martial_status }}</td>
+                            <td>{{ user.dependants }}</td>
+                            <td>{{ user.education }}</td>
+                            <td>{{ user.employment }}</td>
+                            <td>{{ user.income }}</td>
+                            <td>{{ user.co_income }}</td>
+                            <td>{{ user.expense }}</td>
+                            <td>{{ user.loan_purpose }}</td>
+                            <td>{{ user.loan_amount }}</td>
+                            <td>{{ user.loan_amount_term }}</td>
+                            <td>{{ user.Credit_score }}</td>
+                            <td>{{ user.dti }}</td>
+                            <td>{{ user.property_area }}</td>
+                
+                            <td>{{ user.date }}</td>
+                            <td>{{ user.time }}</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript: Search & Export Functions -->
+    <script>
+        
+    // Ensure Flask Data is Loaded
+    const maleCount = {{ male_count }};
+    const femaleCount = {{ female_count }};
+    const ageGroups = {{ age_groups | tojson }};
+    const loanPurposes = {{ loan_purposes | tojson }};
+    const likelyCount = {{ likely_count }};
+    const unlikelyCount = {{ unlikely_count }};
+    const marriedCount = {{ married_count }};
+    const unmarriedCount = {{ unmarried_count }};
+
+    // Male-to-Female Ratio Chart
+    new Chart(document.getElementById('genderPieChart').getContext('2d'), {
+        type: 'pie',
+        data: {
+            labels: ['Male', 'Female'],
+            datasets: [{
+                data: [maleCount, femaleCount],
+                backgroundColor: ['#36A2EB', '#FF6384']
+            }]
+        }
+    });
+
+    // Marital Status Chart
+    new Chart(document.getElementById('maritalStatusPieChart').getContext('2d'), {
+        type: 'pie',
+        data: {
+            labels: ['Married', 'Unmarried'],
+            datasets: [{
+                data: [marriedCount, unmarriedCount],
+                backgroundColor: ['#66BB6A', '#FF6384']
+            }]
+        }
+    });
+
+    // Age Distribution Chart
+    new Chart(document.getElementById('ageBarChart').getContext('2d'), {
+        type: 'bar',
+        data: {
+            labels: Object.keys(ageGroups),
+            datasets: [{
+                label: 'Age Group Count',
+                data: Object.values(ageGroups),
+                backgroundColor: '#4CAF50'
+            }]
+        },
+        options: {
+            responsive: true,
+            scales: {
+                x: { title: { display: true, text: 'Age Groups' } },
+                y: { beginAtZero: true, title: { display: true, text: 'Count' } }
+            }
+        }
+    });
+
+    // Loan Purpose Chart
+    new Chart(document.getElementById('loanPurposeBarChart').getContext('2d'), {
+        type: 'bar',
+        data: {
+            labels: Object.keys(loanPurposes),
+            datasets: [{
+                label: 'Loan Purpose',
+                data: Object.values(loanPurposes),
+                backgroundColor: '#FFA500'
+            }]
+        },
+        options: {
+            responsive: true,
+            scales: {
+                x: { title: { display: true, text: 'Loan Purpose' } },
+                y: { beginAtZero: true, title: { display: true, text: 'Count' } }
+            }
+        }
+    });
+
+    // Repayment Likelihood Chart
+    new Chart(document.getElementById('repaymentPieChart').getContext('2d'), {
+        type: 'pie',
+        data: {
+            labels: ['Likely to Pay', 'Unlikely to Pay'],
+            datasets: [{
+                data: [likelyCount, unlikelyCount],
+                backgroundColor: ['#00C853', '#FF1744']
+            }]
+        }
+    });
+
+        // Search Function
+        function searchTable() {
+            const input = document.getElementById('searchInput').value.toLowerCase();
+            const rows = document.querySelectorAll('#applicantTable tbody tr');
+            rows.forEach(row => {
+                row.style.display = row.innerText.toLowerCase().includes(input) ? '' : 'none';
+            });
+        }
+
+        // Export to CSV
+        function exportTableToCSV() {
+            const csv = [];
+            const rows = document.querySelectorAll('#applicantTable tr');
+            rows.forEach(row => {
+                const cells = row.querySelectorAll('th, td');
+                const rowData = Array.from(cells).map(cell => `"${cell.innerText}"`);
+                csv.push(rowData.join(','));
+            });
+            const csvBlob = new Blob([csv.join('\n')], { type: 'text/csv' });
+            saveAs(csvBlob, 'applicant_data.csv');
+        }
+
+        // Export to PDF
+        function exportTableToPDF() {
+            const pdf = new window.jspdf.jsPDF('l', 'pt', 'a3');
+            pdf.text("Applicant Data", 40, 30);
+            pdf.autoTable({ html: '#applicantTable', startY: 50 });
+            pdf.save('applicant_data.pdf');
+        }
+
+        // Export to Word
+        function exportTableToWord() {
+            const html = document.querySelector('#applicantTable').outerHTML;
+            const blob = new Blob([html], { type: 'application/msword' });
+            saveAs(blob, 'applicant_data.doc');
+        }
+    </script>
+</body>
+</html>
