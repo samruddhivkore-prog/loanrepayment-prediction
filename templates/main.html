@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Repayment Prediction</title>
+    <!-- Include Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" >
+
+    <style>
+        body {
+            background-image: url("{{ url_for('static', filename='images/bg3.png') }}");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        input{
+            border: solid rgb(113, 201, 235);
+            border-width: 20px;
+        }
+        .form-control{
+           border: solid rgb(90, 198, 241);
+           
+        }
+        .form-select{
+            border: solid rgb(88, 199, 243);
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 style="background-color: rgb(65, 176, 227); color: #fefefe; padding: 10px; border-radius: 8px;" class="text-center mb-4">LOAN REPAYMENT LIKELIHOOD PREDICTION</h2>
+
+        <!-- <h2 class="text-center mb-4">Loan Repayment Prediction</h2> -->
+
+        <!-- Form for loan details -->
+        <form method="POST" class="row g-3">
+            <div class="col-md-6">
+                <label for="Name" class="form-label">Name</label>
+                <input style="border: solid skyblue;" type="text" class="form-control" name="Name" id="Name" required>
+            </div>
+            <div class="col-md-6">
+                <label for="Gender" class="form-label">Gender</label>
+                <select class="form-select" name="Gender" id="Gender" required>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+            <div class="col-md-6">
+                <label for="Age" class="form-label">Age</label>
+                <input type="number" class="form-control" name="Age" id="Age" required>
+            </div>
+            <div class="col-md-6">
+                <label for="Marital_Status" class="form-label">Marital Status</label>
+                <select class="form-select" name="Marital_Status" id="Marital_Status" required>
+                    <option value="married">Married</option>
+                    <option value="unmarried">Unmarried</option>
+                </select>
+            </div>
+            <div class="col-md-6">
+                <label for="Dependents" class="form-label">Dependents</label>
+                <input type="number" class="form-control" name="Dependents" id="Dependents" required>
+            </div>
+            <div class="col-md-6">
+                <label for="Education" class="form-label">Education</label>
+                <select class="form-select" name="Education" id="Education" required>
+                    <option value="illiterate">Illiterate</option>
+                    <option value="graduate">Graduate</option>
+                    <option value="higher studies">Higher Studies</option>
+                </select>
+            </div>
+            <div class="col-md-6">
+                <label for="Employment_Type" class="form-label">Employment Type</label>
+                <select class="form-select" name="Employment_Type" id="Employment_Type" required>
+                    <option value="self-employed">Self-employed</option>
+                    <option value="salaried">Salaried</option>
+                    <option value="unemployed">Unemployed</option>
+                </select>
+            </div>
+            <div class="col-md-6">
+                <label for="ApplicantIncome" class="form-label">Applicant Income (INR)</label>
+                <input type="number" class="form-control" name="ApplicantIncome" id="ApplicantIncome" step="01" required>
+            </div>
+            <div class="col-md-6">
+                <label for="CoapplicantIncome" class="form-label">Coapplicant Income</label>
+                <input type="number" class="form-control" name="CoapplicantIncome" id="CoapplicantIncome" required>
+            </div>
+            <div class="col-md-6">
+                <label for="ApplicantExpense" class="form-label">Applicant Expense</label>
+                <input type="number" class="form-control" name="ApplicantExpense" id="ApplicantExpense" required>
+            </div>
+
+            <div class="col-md-6">
+                <label for="Loanpurpose" class="form-label">Loan Purpose</label>
+                <select class="form-select" name="Loanpurpose" id="Loanpurpose" required>
+                    <option value="Gold Loan">Gold Loan</option>
+                    <option value="Home Loan">Home Loan</option>
+                    <option value="Personal Loan">Personal Loan</option>
+                    <option value="Education Loan">Education Loan</option>
+                    <option value="Secured Loan">Secured Loan</option>
+                    <option value="Car Loan">Car Loan</option>
+                </select>
+
+            </div>
+
+            <div class="col-md-6">
+                <label for="LoanAmount" class="form-label">Loan Amount</label>
+                <input type="number" class="form-control" name="LoanAmount" id="LoanAmount" required>
+            </div>
+            <div class="col-md-6">
+                <label for="LoanAmountTerm" class="form-label">Loan Amount Term (months)</label>
+                <input type="number" class="form-control" name="LoanAmountTerm" id="LoanAmountTerm" required>
+            </div>
+            <div class="col-md-6">
+                <label for="CreditScore" class="form-label">Credit Score</label>
+                <input type="text" class="form-control" name="CreditScore" id="CreditScore" required>
+            </div>
+            <div class="col-md-6">
+                <label for="DTI" class="form-label">Debt-to-Income Ratio %</label>
+                <input type="text" class="form-control" name="DTI" id="DTI" step="01" required>
+            </div>
+            <div class="col-md-6">
+                <label for="Property_Area" class="form-label">Property Area</label>
+                <select class="form-select" name="Property_Area" id="Property_Area" required>
+                    <option value="urban">Urban</option>
+                    <option value="semiurban">Semiurban</option>
+                    <option value="rural">Rural</option>
+                </select>
+            </div>
+            <div class="col-12 text-center">
+                <button type="submit" class="btn btn-primary">Predict Loan Status</button>
+            </div>
+        </form>
+
+        {% if result %}
+            <div style="border: solid green;" class="alert alert-warning mt-4 text-center" role="alert">
+                <h4 class="alert-heading">Prediction Result:</h4>
+                <p>The loan status is: <strong>{{ result }}</strong></p>
+            </div>
+        {% endif %}
+
+        <div class="text-center mt-4">
+            <a href="/analysis?result={{ result }}" class="btn btn-success">View Analysis</a>
+        </div>
+        
+    </div>
+
+    <!-- Include Bootstrap JS (optional) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" ></script>
+</body>
+</html>
