@@ -1,0 +1,1001 @@
+Loan_ID,Gender,Age,Marital_Status,Dependents,Education,Employment_Type,ApplicantIncome,CoapplicantIncome,Applicant_Expense,LoanAmount,Loan_Amount_Term,Credit_Score,DTI,Property_Area,Loan_Status
+L0001,male,57,married,0,higher studies,self-employed,37000,55000,8783,1400000,240,773,9.55,semiurban,0
+L0002,male,35,married,0,higher studies,self-employed,105000,14000,51931,700000,24,744,43.64,rural,0
+L0003,male,39,unmarried,0,graduate,salaried,46000,66000,18152,900000,24,480,16.21,semiurban,0
+L0004,male,34,unmarried,0,graduate,salaried,140000,11000,46061,300000,60,507,30.5,semiurban,0
+L0005,male,30,unmarried,0,higher studies,self-employed,104000,0,41001,900000,12,474,39.42,rural,0
+L0006,female,49,married,0,higher studies,salaried,55000,92000,18499,1800000,240,683,12.58,semiurban,0
+L0007,female,28,married,0,graduate,self-employed,109000,43000,51175,400000,12,325,33.67,semiurban,0
+L0008,male,29,unmarried,0,graduate,salaried,53000,88000,22553,600000,60,544,16.0,semiurban,0
+L0009,female,49,married,0,higher studies,salaried,129000,65000,56945,300000,24,494,29.35,rural,0
+L0010,female,45,married,2,graduate,self-employed,148000,0,66896,1500000,240,411,45.2,semiurban,0
+L0011,male,32,unmarried,0,graduate,unemployed,47000,34000,15708,800000,60,773,19.39,rural,1
+L0012,female,25,unmarried,0,illiterate,salaried,65000,90000,21428,500000,60,650,13.82,rural,0
+L0013,female,36,married,3+,graduate,salaried,50000,30000,22533,1500000,240,770,28.17,rural,0
+L0014,male,31,married,2,graduate,salaried,34000,29000,7120,1600000,360,777,11.3,rural,0
+L0015,male,40,unmarried,0,illiterate,salaried,30000,0,10921,300000,24,487,36.4,rural,0
+L0016,male,52,unmarried,0,graduate,self-employed,118000,0,36650,300000,12,439,31.06,rural,0
+L0017,female,40,unmarried,0,graduate,salaried,52000,39000,13674,1700000,360,765,15.03,urban,0
+L0018,male,46,unmarried,0,higher studies,salaried,67000,0,19203,400000,24,486,28.66,rural,0
+L0019,male,31,married,3+,graduate,unemployed,44000,54000,19381,1800000,120,647,19.78,rural,0
+L0020,female,51,unmarried,0,higher studies,salaried,44000,0,18470,1400000,360,584,41.98,rural,0
+L0021,female,42,married,0,graduate,salaried,30000,0,7417,1800000,120,503,24.72,rural,0
+L0022,male,58,married,3+,graduate,unemployed,33000,81000,16061,1200000,120,386,14.09,semiurban,0
+L0023,male,56,married,2,graduate,salaried,78000,42000,31754,1000000,120,548,26.46,rural,0
+L0024,male,36,married,0,graduate,unemployed,18000,0,5030,900000,60,655,27.94,rural,0
+L0025,female,37,married,1,graduate,salaried,34000,52000,11135,1200000,240,668,12.95,rural,0
+L0026,female,59,married,3+,graduate,salaried,52000,79000,19202,900000,24,604,14.66,semiurban,0
+L0027,female,59,unmarried,0,graduate,salaried,133000,7000,54907,1900000,360,511,39.22,semiurban,0
+L0028,female,40,unmarried,0,graduate,unemployed,32000,24000,10510,1900000,120,440,18.77,rural,0
+L0029,male,60,unmarried,0,graduate,unemployed,15000,39000,4183,600000,24,781,7.75,semiurban,0
+L0030,female,31,unmarried,0,graduate,unemployed,34000,26000,10119,1600000,120,544,16.86,rural,0
+L0031,female,53,unmarried,0,higher studies,salaried,129000,40000,49837,1900000,240,402,29.49,semiurban,0
+L0032,female,53,unmarried,0,graduate,self-employed,174000,66000,56447,2000000,360,359,23.52,semiurban,0
+L0033,male,33,married,1,higher studies,self-employed,193000,0,90138,1100000,120,674,46.7,urban,0
+L0034,male,55,married,3+,higher studies,salaried,51000,0,22848,400000,120,464,44.8,rural,0
+L0035,male,51,married,2,higher studies,salaried,57000,73000,16523,1100000,120,525,12.71,urban,0
+L0036,male,59,married,2,graduate,salaried,93000,0,38339,500000,120,555,41.22,rural,0
+L0037,male,59,unmarried,0,graduate,salaried,107000,78000,48251,1000000,60,573,26.08,semiurban,0
+L0038,female,44,unmarried,0,higher studies,unemployed,50000,45000,14070,1500000,120,560,14.81,urban,0
+L0039,male,57,unmarried,0,graduate,salaried,68000,0,18950,400000,24,642,27.87,semiurban,0
+L0040,male,58,married,2,higher studies,salaried,93000,76000,36497,1600000,120,486,21.6,urban,0
+L0041,female,41,married,0,graduate,unemployed,19000,0,6444,1200000,360,368,33.92,semiurban,0
+L0042,female,56,married,3+,graduate,salaried,106000,59000,30134,300000,60,815,18.26,urban,1
+L0043,female,24,unmarried,0,higher studies,salaried,63000,0,22435,200000,12,350,35.61,semiurban,0
+L0044,male,52,unmarried,0,higher studies,salaried,94000,0,34984,700000,24,698,37.22,semiurban,0
+L0045,male,50,married,0,higher studies,self-employed,101000,0,47945,1600000,240,807,47.47,urban,0
+L0046,female,25,unmarried,0,higher studies,salaried,101000,0,36919,200000,120,747,36.55,urban,1
+L0047,female,34,unmarried,0,graduate,unemployed,28000,0,7710,1500000,120,834,27.54,semiurban,0
+L0048,female,52,married,0,graduate,salaried,75000,0,24730,1600000,360,783,32.97,semiurban,0
+L0049,male,58,unmarried,0,graduate,salaried,140000,16000,54381,700000,120,335,34.86,urban,0
+L0050,female,40,married,3+,graduate,self-employed,44000,59000,10144,700000,24,315,9.85,semiurban,0
+L0051,male,36,married,2,higher studies,salaried,42000,68000,9879,1300000,240,461,8.98,urban,0
+L0052,female,21,unmarried,0,graduate,salaried,101000,0,29776,900000,24,383,29.48,urban,0
+L0053,male,46,unmarried,0,graduate,salaried,148000,55000,42630,1000000,24,433,21.0,urban,0
+L0054,female,44,unmarried,0,graduate,self-employed,30000,97000,7507,500000,24,450,5.91,rural,0
+L0055,male,59,married,2,graduate,self-employed,161000,99000,50532,1900000,240,556,19.44,rural,0
+L0056,male,41,married,1,graduate,salaried,120000,0,49407,600000,60,400,41.17,rural,0
+L0057,female,35,married,0,graduate,unemployed,41000,0,18275,300000,60,564,44.57,semiurban,0
+L0058,male,54,married,2,graduate,salaried,83000,0,31046,800000,12,648,37.4,semiurban,0
+L0059,male,53,unmarried,0,graduate,unemployed,50000,0,18462,1100000,120,352,36.92,rural,0
+L0060,female,42,married,3+,higher studies,self-employed,146000,0,60388,1400000,240,473,41.36,urban,0
+L0061,female,59,married,2,graduate,salaried,97000,93000,33497,1300000,120,405,17.63,semiurban,0
+L0062,female,22,unmarried,0,graduate,self-employed,107000,9000,35637,1700000,120,601,30.72,semiurban,0
+L0063,female,51,unmarried,0,higher studies,self-employed,146000,48000,67448,200000,60,666,34.77,urban,0
+L0064,female,53,unmarried,0,graduate,self-employed,29000,7000,13557,1200000,360,592,37.66,rural,0
+L0065,female,27,married,2,graduate,salaried,33000,0,13511,800000,24,373,40.94,semiurban,0
+L0066,female,29,married,1,graduate,salaried,92000,0,43633,1800000,120,658,47.43,rural,0
+L0067,male,58,unmarried,0,higher studies,self-employed,181000,74000,51000,1100000,240,395,20.0,urban,0
+L0068,male,25,married,1,illiterate,salaried,108000,87000,49530,700000,12,589,25.4,urban,0
+L0069,female,27,unmarried,0,graduate,salaried,90000,0,23308,900000,60,408,25.9,urban,0
+L0070,female,52,married,0,graduate,salaried,115000,0,30856,200000,60,516,26.83,urban,0
+L0071,female,32,unmarried,0,illiterate,unemployed,33000,33000,7853,1600000,240,727,11.9,urban,0
+L0072,female,45,married,2,graduate,salaried,119000,68000,43216,600000,60,687,23.11,semiurban,0
+L0073,male,39,unmarried,0,graduate,salaried,61000,0,22498,800000,12,356,36.88,rural,0
+L0074,male,53,unmarried,0,graduate,salaried,137000,65000,39530,200000,120,456,19.57,semiurban,0
+L0075,female,54,married,3+,graduate,self-employed,68000,0,32436,1900000,120,839,47.7,urban,0
+L0076,female,51,married,3+,higher studies,salaried,97000,14000,42903,1300000,240,353,38.65,urban,0
+L0077,male,51,married,2,graduate,salaried,110000,0,45903,200000,12,301,41.73,semiurban,0
+L0078,female,24,unmarried,0,graduate,self-employed,55000,0,22856,800000,12,555,41.56,semiurban,0
+L0079,male,57,unmarried,0,graduate,salaried,83000,0,30932,400000,120,760,37.27,rural,1
+L0080,male,51,unmarried,0,graduate,salaried,97000,41000,25030,700000,120,332,18.14,rural,0
+L0081,female,29,married,0,graduate,unemployed,11000,0,4966,1700000,360,416,45.15,semiurban,0
+L0082,male,36,unmarried,0,graduate,self-employed,60000,0,28571,1200000,360,512,47.62,urban,0
+L0083,female,59,married,3+,graduate,self-employed,124000,0,36995,1400000,120,711,29.83,semiurban,0
+L0084,female,37,unmarried,0,graduate,self-employed,162000,85000,75204,400000,60,338,30.45,semiurban,0
+L0085,male,23,married,3+,graduate,salaried,133000,12000,32806,1400000,360,348,22.62,rural,0
+L0086,female,34,unmarried,0,graduate,salaried,66000,83000,32012,1700000,120,740,21.48,semiurban,0
+L0087,male,23,married,0,graduate,salaried,35000,10000,11987,200000,120,517,26.64,urban,0
+L0088,male,28,unmarried,0,illiterate,salaried,60000,0,15807,1500000,360,826,26.35,semiurban,0
+L0089,male,49,unmarried,0,graduate,self-employed,198000,62000,69257,800000,24,844,26.64,urban,1
+L0090,female,55,unmarried,0,higher studies,self-employed,45000,0,19865,2000000,360,625,44.14,urban,0
+L0091,male,56,married,2,higher studies,salaried,135000,68000,60012,1300000,360,606,29.56,rural,0
+L0092,female,38,married,1,illiterate,salaried,98000,0,35683,1300000,240,456,36.41,urban,0
+L0093,female,37,unmarried,0,higher studies,salaried,146000,62000,42873,1400000,360,804,20.61,semiurban,1
+L0094,male,50,unmarried,0,graduate,self-employed,47000,57000,9500,200000,60,516,9.13,semiurban,0
+L0095,female,29,married,1,higher studies,self-employed,106000,5000,35935,1900000,120,421,32.37,rural,0
+L0096,male,29,unmarried,0,graduate,salaried,90000,0,37682,1500000,240,545,41.87,semiurban,0
+L0097,male,27,married,1,graduate,self-employed,58000,29000,22349,1000000,120,461,25.69,urban,0
+L0098,male,54,unmarried,0,graduate,self-employed,160000,0,51146,1700000,120,611,31.97,urban,0
+L0099,female,31,married,2,graduate,salaried,118000,83000,29541,1300000,120,301,14.7,rural,0
+L0100,female,55,unmarried,0,graduate,self-employed,91000,10000,29423,600000,60,835,29.13,urban,1
+L0101,female,46,married,2,graduate,unemployed,28000,0,10822,1700000,360,697,38.65,semiurban,0
+L0102,male,28,married,3+,graduate,salaried,86000,63000,30146,1700000,120,836,20.23,urban,0
+L0103,female,45,unmarried,0,illiterate,salaried,147000,0,70009,1000000,120,762,47.63,urban,0
+L0104,female,37,married,0,higher studies,salaried,108000,0,37981,1400000,120,687,35.17,rural,0
+L0105,male,36,married,2,higher studies,self-employed,89000,0,18838,1500000,120,449,21.17,rural,0
+L0106,female,21,unmarried,0,higher studies,salaried,57000,0,18034,1300000,120,555,31.64,rural,0
+L0107,male,37,married,3+,graduate,salaried,50000,0,15906,1900000,360,448,31.81,semiurban,0
+L0108,male,21,married,2,graduate,unemployed,33000,0,13886,1400000,360,562,42.08,urban,0
+L0109,male,27,unmarried,0,graduate,self-employed,184000,0,85974,1600000,240,431,46.73,rural,0
+L0110,female,32,unmarried,0,higher studies,salaried,73000,0,35815,2000000,240,652,49.06,semiurban,0
+L0111,female,47,unmarried,0,graduate,salaried,113000,0,28281,1100000,120,591,25.03,rural,0
+L0112,female,58,unmarried,0,graduate,self-employed,99000,42000,44979,1900000,120,808,31.9,urban,0
+L0113,male,40,married,1,higher studies,self-employed,162000,23000,58169,1400000,240,473,31.44,rural,0
+L0114,female,55,married,0,graduate,self-employed,183000,0,68393,2000000,360,430,37.37,urban,0
+L0115,female,24,married,3+,graduate,unemployed,27000,0,7978,1200000,120,698,29.55,rural,0
+L0116,male,36,married,3+,graduate,salaried,113000,18000,45739,400000,24,841,34.92,urban,1
+L0117,male,51,married,0,illiterate,salaried,46000,7000,22224,200000,120,669,41.93,semiurban,0
+L0118,female,34,unmarried,0,illiterate,self-employed,184000,70000,86767,900000,24,381,34.16,rural,0
+L0119,female,56,unmarried,0,higher studies,salaried,63000,0,25670,700000,120,687,40.75,rural,0
+L0120,male,35,unmarried,0,graduate,unemployed,11000,63000,4367,1700000,120,612,5.9,urban,0
+L0121,male,32,married,1,graduate,unemployed,22000,48000,8256,200000,12,308,11.79,rural,0
+L0122,male,50,unmarried,0,illiterate,salaried,70000,29000,17354,1900000,240,436,17.53,semiurban,0
+L0123,female,29,married,1,graduate,salaried,66000,32000,24018,1200000,240,662,24.51,semiurban,0
+L0124,female,56,married,0,graduate,salaried,93000,0,19223,400000,60,612,20.67,urban,0
+L0125,male,43,married,2,graduate,unemployed,21000,0,5653,500000,60,693,26.92,urban,0
+L0126,female,43,married,2,graduate,self-employed,173000,0,67137,1700000,120,402,38.81,urban,0
+L0127,female,38,married,3+,graduate,self-employed,113000,28000,46028,1200000,240,555,32.64,semiurban,0
+L0128,female,22,unmarried,0,higher studies,self-employed,148000,0,57440,600000,24,809,38.81,semiurban,1
+L0129,male,54,unmarried,0,graduate,self-employed,137000,21000,41616,1100000,240,780,26.34,urban,1
+L0130,male,31,unmarried,0,higher studies,salaried,123000,27000,42746,1000000,24,597,28.5,rural,0
+L0131,female,58,unmarried,0,illiterate,salaried,42000,33000,12764,1900000,240,450,17.02,semiurban,0
+L0132,female,40,married,0,graduate,salaried,58000,95000,27322,300000,120,485,17.86,semiurban,0
+L0133,male,55,unmarried,0,higher studies,salaried,48000,0,12779,1900000,240,603,26.62,urban,0
+L0134,female,33,married,0,graduate,salaried,142000,6000,37313,1700000,240,430,25.21,semiurban,0
+L0135,male,43,unmarried,0,illiterate,salaried,142000,0,40822,300000,24,353,28.75,semiurban,0
+L0136,female,21,married,1,graduate,salaried,103000,93000,46287,800000,24,362,23.62,semiurban,0
+L0137,male,33,unmarried,0,graduate,self-employed,107000,0,35860,900000,24,469,33.51,semiurban,0
+L0138,female,38,unmarried,0,graduate,self-employed,86000,0,41867,1600000,240,455,48.68,semiurban,0
+L0139,male,29,married,2,graduate,self-employed,40000,93000,19969,1800000,120,814,15.01,semiurban,0
+L0140,female,29,married,3+,graduate,salaried,144000,0,58831,1300000,240,479,40.85,urban,0
+L0141,female,60,married,2,graduate,salaried,114000,81000,46437,1500000,360,722,23.81,semiurban,1
+L0142,male,45,married,2,graduate,self-employed,156000,94000,32071,1900000,360,814,12.83,semiurban,1
+L0143,male,21,married,0,graduate,salaried,132000,0,64502,1600000,120,723,48.87,rural,0
+L0144,male,58,unmarried,0,graduate,salaried,129000,0,63687,500000,12,400,49.37,urban,0
+L0145,male,39,married,2,graduate,salaried,150000,54000,33751,1400000,120,665,16.54,semiurban,0
+L0146,male,35,married,1,graduate,self-employed,139000,10000,33239,1100000,120,591,22.31,urban,0
+L0147,male,30,married,2,graduate,salaried,142000,0,37820,1500000,240,697,26.63,semiurban,0
+L0148,female,25,married,0,graduate,unemployed,23000,43000,7346,900000,12,793,11.13,semiurban,0
+L0149,female,40,unmarried,0,graduate,unemployed,36000,0,8556,1200000,120,468,23.77,rural,0
+L0150,male,45,married,3+,graduate,unemployed,23000,34000,9254,800000,120,754,16.24,semiurban,0
+L0151,male,58,unmarried,0,graduate,salaried,43000,48000,15314,1400000,240,615,16.83,semiurban,0
+L0152,male,40,unmarried,0,higher studies,unemployed,22000,93000,5537,1100000,120,798,4.81,semiurban,1
+L0153,male,33,unmarried,0,graduate,self-employed,167000,0,52099,1100000,240,502,31.2,urban,0
+L0154,female,58,married,0,higher studies,self-employed,166000,69000,80034,1700000,240,309,34.06,semiurban,0
+L0155,male,44,married,3+,graduate,unemployed,19000,18000,4098,1400000,120,814,11.08,semiurban,0
+L0156,male,56,married,2,graduate,salaried,136000,84000,35344,400000,60,481,16.07,semiurban,0
+L0157,female,24,unmarried,0,illiterate,self-employed,101000,0,22492,600000,24,403,22.27,rural,0
+L0158,female,49,married,0,illiterate,self-employed,188000,26000,45535,1600000,240,688,21.28,rural,0
+L0159,male,21,unmarried,0,higher studies,salaried,75000,25000,15772,1000000,12,475,15.77,rural,0
+L0160,male,24,unmarried,0,graduate,salaried,70000,0,15523,1900000,240,315,22.18,rural,0
+L0161,male,50,unmarried,0,graduate,unemployed,27000,0,6802,1200000,120,381,25.19,semiurban,0
+L0162,female,59,unmarried,0,graduate,self-employed,91000,63000,19614,1200000,240,845,12.74,rural,1
+L0163,male,40,married,3+,graduate,salaried,100000,0,23086,800000,120,684,23.09,rural,0
+L0164,female,45,married,1,illiterate,self-employed,45000,96000,17243,1700000,120,356,12.23,semiurban,0
+L0165,male,38,married,2,graduate,self-employed,24000,87000,9119,400000,120,648,8.22,urban,0
+L0166,female,47,married,1,graduate,self-employed,40000,0,13308,400000,60,740,33.27,semiurban,0
+L0167,male,27,unmarried,0,illiterate,salaried,107000,88000,34715,600000,60,594,17.8,urban,0
+L0168,male,36,unmarried,0,higher studies,salaried,39000,0,14990,400000,120,725,38.44,urban,0
+L0169,female,60,unmarried,0,graduate,unemployed,40000,17000,8184,2000000,240,528,14.36,rural,0
+L0170,female,34,unmarried,0,graduate,salaried,121000,79000,32146,1100000,240,648,16.07,urban,0
+L0171,male,38,married,1,graduate,salaried,25000,60000,5157,700000,120,728,6.07,urban,1
+L0172,male,47,married,1,higher studies,salaried,29000,0,9873,900000,60,402,34.04,urban,0
+L0173,female,26,unmarried,0,graduate,salaried,148000,16000,55741,300000,24,539,33.99,rural,0
+L0174,male,43,unmarried,0,graduate,self-employed,65000,0,22441,1100000,360,758,34.52,semiurban,0
+L0175,male,53,married,1,graduate,salaried,41000,0,11646,400000,120,453,28.4,urban,0
+L0176,male,35,married,0,graduate,salaried,79000,0,30403,900000,24,798,38.48,semiurban,0
+L0177,male,34,married,1,graduate,salaried,99000,0,25560,1100000,240,516,25.82,urban,0
+L0178,female,57,married,2,graduate,salaried,67000,54000,29800,2000000,240,645,24.63,rural,0
+L0179,female,24,married,2,higher studies,self-employed,151000,55000,35553,1600000,360,372,17.26,semiurban,0
+L0180,female,50,unmarried,0,illiterate,self-employed,37000,0,12654,1300000,240,398,34.2,urban,0
+L0181,male,51,married,3+,illiterate,salaried,44000,0,21365,1100000,240,624,48.56,rural,0
+L0182,female,57,unmarried,0,graduate,unemployed,47000,63000,9657,2000000,240,556,8.78,rural,0
+L0183,male,24,unmarried,0,illiterate,self-employed,154000,0,38569,1800000,120,500,25.04,rural,0
+L0184,male,30,unmarried,0,illiterate,salaried,127000,47000,28289,300000,24,654,16.26,urban,0
+L0185,male,41,unmarried,0,higher studies,salaried,139000,0,64846,1200000,360,570,46.65,rural,0
+L0186,female,29,married,1,graduate,self-employed,179000,27000,64827,1500000,120,580,31.47,semiurban,0
+L0187,male,50,unmarried,0,graduate,salaried,113000,59000,24767,500000,24,503,14.4,urban,0
+L0188,male,31,married,3+,graduate,self-employed,133000,75000,62646,1700000,240,492,30.12,rural,0
+L0189,female,35,married,3+,graduate,unemployed,16000,22000,5310,1200000,360,475,13.97,urban,0
+L0190,male,52,unmarried,0,graduate,salaried,33000,0,13177,1000000,60,654,39.93,urban,0
+L0191,male,46,married,1,graduate,self-employed,22000,85000,5634,1900000,240,828,5.27,semiurban,0
+L0192,female,27,unmarried,0,illiterate,salaried,70000,34000,27665,1800000,360,694,26.6,semiurban,0
+L0193,male,26,unmarried,0,graduate,salaried,109000,0,38946,1800000,360,778,35.73,semiurban,0
+L0194,male,56,unmarried,0,graduate,salaried,117000,0,36668,1300000,360,673,31.34,rural,0
+L0195,female,47,married,3+,graduate,self-employed,101000,0,23430,1100000,360,698,23.2,urban,0
+L0196,male,47,married,1,graduate,unemployed,14000,64000,3661,1400000,360,414,4.69,rural,0
+L0197,female,28,unmarried,0,graduate,self-employed,166000,0,76328,700000,60,612,45.98,semiurban,0
+L0198,female,32,unmarried,0,graduate,self-employed,50000,0,17848,400000,12,678,35.7,semiurban,0
+L0199,male,54,married,3+,graduate,self-employed,131000,61000,61594,800000,24,390,32.08,urban,0
+L0200,female,43,unmarried,0,graduate,salaried,94000,38000,30928,1600000,120,828,23.43,urban,0
+L0201,male,55,married,2,graduate,salaried,101000,0,21203,1100000,120,348,20.99,rural,0
+L0202,male,56,unmarried,0,graduate,salaried,43000,0,12155,200000,24,357,28.27,rural,0
+L0203,male,51,unmarried,0,higher studies,salaried,33000,54000,13273,2000000,360,643,15.26,rural,0
+L0204,male,58,unmarried,0,illiterate,unemployed,37000,68000,8838,300000,12,560,8.42,semiurban,0
+L0205,male,49,unmarried,0,graduate,salaried,50000,93000,20945,300000,60,607,14.65,urban,0
+L0206,female,55,married,3+,higher studies,salaried,97000,0,33259,2000000,120,802,34.29,rural,0
+L0207,female,23,unmarried,0,graduate,self-employed,164000,29000,51878,1100000,360,675,26.88,urban,0
+L0208,male,48,married,3+,graduate,self-employed,74000,59000,18563,1200000,120,460,13.96,urban,0
+L0209,male,44,unmarried,0,graduate,self-employed,81000,23000,28739,700000,60,344,27.63,urban,0
+L0210,male,58,married,1,graduate,self-employed,161000,0,58380,2000000,360,564,36.26,rural,0
+L0211,male,41,married,0,higher studies,salaried,132000,0,50710,2000000,240,701,38.42,semiurban,0
+L0212,female,34,married,0,higher studies,self-employed,110000,0,39339,1900000,240,354,35.76,urban,0
+L0213,male,30,married,3+,higher studies,salaried,77000,93000,28900,500000,120,727,17.0,semiurban,1
+L0214,male,45,unmarried,0,graduate,salaried,91000,0,19260,1700000,240,672,21.16,urban,0
+L0215,male,35,unmarried,0,graduate,salaried,109000,74000,44494,1800000,120,549,24.31,semiurban,0
+L0216,male,60,married,2,graduate,salaried,137000,74000,47229,1400000,360,714,22.38,urban,1
+L0217,female,27,unmarried,0,graduate,self-employed,42000,0,10786,1900000,120,633,25.68,rural,0
+L0218,female,23,married,2,graduate,salaried,36000,93000,11622,1300000,360,389,9.01,semiurban,0
+L0219,male,46,unmarried,0,higher studies,unemployed,33000,0,12236,2000000,120,582,37.08,rural,0
+L0220,female,44,unmarried,0,graduate,salaried,33000,47000,7935,1200000,360,743,9.92,semiurban,0
+L0221,female,37,unmarried,0,graduate,salaried,142000,0,32478,1600000,120,335,22.87,semiurban,0
+L0222,male,56,married,0,graduate,self-employed,182000,7000,64062,1600000,360,577,33.9,rural,0
+L0223,male,59,unmarried,0,graduate,salaried,118000,14000,56020,1300000,120,483,42.44,semiurban,0
+L0224,female,48,married,2,illiterate,salaried,144000,0,60159,1300000,240,562,41.78,urban,0
+L0225,female,40,married,2,graduate,self-employed,153000,0,31422,1100000,240,646,20.54,rural,0
+L0226,male,36,unmarried,0,graduate,self-employed,34000,0,14773,1900000,240,822,43.45,urban,0
+L0227,female,43,unmarried,0,illiterate,salaried,30000,88000,8030,2000000,120,610,6.81,semiurban,0
+L0228,female,21,married,3+,graduate,salaried,49000,0,15969,1200000,120,760,32.59,rural,0
+L0229,male,25,unmarried,0,higher studies,self-employed,144000,0,44106,800000,60,543,30.63,semiurban,0
+L0230,female,30,married,1,graduate,salaried,34000,0,7584,900000,12,843,22.31,rural,0
+L0231,male,22,married,3+,graduate,salaried,44000,0,17351,1400000,120,559,39.43,urban,0
+L0232,male,30,unmarried,0,higher studies,salaried,99000,16000,32378,1400000,240,366,28.15,rural,0
+L0233,female,52,unmarried,0,graduate,salaried,100000,13000,37427,600000,60,647,33.12,urban,0
+L0234,male,42,married,1,graduate,salaried,65000,32000,25905,600000,60,702,26.71,semiurban,1
+L0235,male,52,married,3+,illiterate,salaried,112000,0,43240,1500000,360,370,38.61,urban,0
+L0236,male,41,unmarried,0,graduate,salaried,124000,0,40571,300000,12,793,32.72,urban,1
+L0237,female,54,married,1,graduate,unemployed,25000,0,7945,200000,24,336,31.78,urban,0
+L0238,female,52,married,1,illiterate,unemployed,36000,0,11432,500000,120,380,31.76,rural,0
+L0239,male,28,married,0,graduate,salaried,128000,0,36037,400000,120,319,28.15,semiurban,0
+L0240,female,50,unmarried,0,graduate,self-employed,80000,0,18816,1700000,120,730,23.52,semiurban,0
+L0241,male,45,unmarried,0,graduate,self-employed,172000,0,65339,1700000,240,494,37.99,rural,0
+L0242,female,35,married,0,higher studies,salaried,108000,0,32983,1800000,120,748,30.54,semiurban,0
+L0243,male,21,unmarried,0,higher studies,salaried,136000,0,62465,1800000,120,568,45.93,semiurban,0
+L0244,male,59,married,0,graduate,self-employed,119000,97000,29021,1800000,360,430,13.44,semiurban,0
+L0245,female,38,married,1,graduate,salaried,95000,0,25234,1000000,60,524,26.56,rural,0
+L0246,female,31,married,2,graduate,salaried,123000,82000,44162,1100000,240,753,21.54,rural,1
+L0247,male,46,unmarried,0,graduate,salaried,115000,0,57174,500000,60,540,49.72,semiurban,0
+L0248,female,58,unmarried,0,higher studies,salaried,132000,39000,51363,1200000,120,357,30.04,rural,0
+L0249,female,43,married,3+,graduate,unemployed,44000,0,19502,1500000,120,510,44.32,urban,0
+L0250,male,27,married,0,higher studies,self-employed,91000,0,43861,1600000,240,373,48.2,semiurban,0
+L0251,male,39,married,3+,graduate,salaried,76000,0,16073,600000,24,654,21.15,rural,0
+L0252,male,48,married,3+,graduate,unemployed,9000,38000,2159,1000000,120,341,4.59,semiurban,0
+L0253,male,28,unmarried,0,graduate,salaried,99000,0,24510,700000,24,511,24.76,rural,0
+L0254,male,51,unmarried,0,graduate,salaried,124000,0,30591,1800000,240,447,24.67,urban,0
+L0255,male,52,married,2,illiterate,salaried,58000,0,16813,1100000,240,543,28.99,semiurban,0
+L0256,male,43,unmarried,0,graduate,salaried,38000,53000,9952,400000,24,677,10.94,semiurban,0
+L0257,male,45,married,0,graduate,salaried,73000,0,26625,1000000,12,685,36.47,rural,0
+L0258,male,60,married,0,graduate,unemployed,18000,84000,5214,800000,24,816,5.11,semiurban,1
+L0259,male,50,unmarried,0,higher studies,salaried,143000,0,47215,600000,60,641,33.02,semiurban,0
+L0260,male,52,unmarried,0,graduate,self-employed,68000,97000,17961,900000,120,723,10.89,semiurban,1
+L0261,male,54,married,2,graduate,self-employed,147000,82000,51114,800000,120,427,22.32,rural,0
+L0262,male,29,married,2,graduate,unemployed,43000,0,19013,300000,12,404,44.22,urban,0
+L0263,male,54,unmarried,0,higher studies,salaried,111000,71000,48646,900000,12,399,26.73,urban,0
+L0264,female,34,married,3+,higher studies,salaried,31000,67000,14345,300000,60,740,14.64,urban,1
+L0265,female,21,married,3+,graduate,salaried,89000,71000,41045,1900000,240,423,25.65,semiurban,0
+L0266,male,50,unmarried,0,graduate,salaried,140000,99000,30788,200000,24,474,12.88,urban,0
+L0267,female,47,unmarried,0,graduate,salaried,84000,0,35060,900000,120,487,41.74,semiurban,0
+L0268,male,33,married,0,illiterate,salaried,131000,0,30935,1900000,120,611,23.61,rural,0
+L0269,female,57,married,3+,graduate,self-employed,96000,38000,31981,200000,120,743,23.87,rural,1
+L0270,male,58,unmarried,0,graduate,self-employed,138000,85000,67779,700000,60,596,30.39,semiurban,0
+L0271,female,51,married,1,graduate,salaried,97000,95000,39173,1500000,360,800,20.4,rural,1
+L0272,female,39,married,3+,graduate,salaried,108000,85000,53570,1000000,60,399,27.76,urban,0
+L0273,female,60,married,2,graduate,salaried,41000,0,12813,1700000,120,526,31.25,urban,0
+L0274,male,56,married,0,graduate,salaried,65000,28000,20333,700000,60,640,21.86,semiurban,0
+L0275,male,32,married,2,graduate,salaried,32000,0,12955,400000,24,400,40.48,rural,0
+L0276,female,36,unmarried,0,graduate,salaried,146000,51000,68097,700000,60,784,34.57,semiurban,1
+L0277,female,33,unmarried,0,illiterate,salaried,88000,76000,43029,700000,24,575,26.24,urban,0
+L0278,male,22,unmarried,0,illiterate,unemployed,31000,47000,8312,1000000,120,362,10.66,semiurban,0
+L0279,female,36,married,2,higher studies,salaried,60000,23000,14878,1100000,240,301,17.93,rural,0
+L0280,male,24,unmarried,0,graduate,salaried,90000,95000,44692,1600000,120,780,24.16,semiurban,1
+L0281,male,27,unmarried,0,graduate,salaried,79000,0,32501,800000,120,711,41.14,rural,0
+L0282,male,59,unmarried,0,graduate,salaried,92000,31000,18704,300000,24,599,15.21,urban,0
+L0283,female,50,married,0,graduate,self-employed,98000,41000,32478,2000000,360,391,23.37,semiurban,0
+L0284,male,39,married,1,higher studies,salaried,136000,0,50269,600000,12,794,36.96,urban,1
+L0285,male,52,unmarried,0,higher studies,self-employed,153000,0,52001,2000000,120,665,33.99,semiurban,0
+L0286,female,31,married,0,graduate,self-employed,134000,69000,39558,2000000,240,767,19.49,rural,1
+L0287,female,50,married,2,graduate,self-employed,71000,80000,31281,2000000,240,426,20.72,semiurban,0
+L0288,female,54,unmarried,0,graduate,salaried,48000,0,14847,2000000,240,704,30.93,urban,0
+L0289,male,60,married,0,graduate,self-employed,107000,62000,49304,600000,12,724,29.17,semiurban,1
+L0290,female,51,married,2,graduate,salaried,87000,0,31681,500000,24,524,36.41,urban,0
+L0291,female,58,married,0,higher studies,self-employed,40000,0,16338,1700000,240,315,40.84,rural,0
+L0292,female,36,unmarried,0,graduate,salaried,61000,7000,27583,1500000,240,369,40.56,rural,0
+L0293,female,44,unmarried,0,graduate,salaried,89000,60000,33428,900000,60,340,22.43,rural,0
+L0294,female,30,married,0,graduate,salaried,77000,0,19367,1900000,240,633,25.15,semiurban,0
+L0295,female,34,married,2,graduate,salaried,75000,0,36104,900000,120,664,48.14,semiurban,0
+L0296,male,52,married,3+,graduate,salaried,38000,0,14237,500000,24,342,37.47,semiurban,0
+L0297,female,51,married,2,graduate,salaried,109000,0,41654,1700000,120,554,38.21,urban,0
+L0298,female,23,married,2,graduate,salaried,33000,0,8290,1300000,240,341,25.12,urban,0
+L0299,male,22,married,2,graduate,salaried,58000,0,14152,1200000,360,357,24.4,urban,0
+L0300,male,46,married,0,graduate,salaried,122000,0,53992,600000,120,741,44.26,rural,0
+L0301,female,35,married,3+,graduate,salaried,39000,0,11241,300000,120,764,28.82,rural,1
+L0302,female,48,unmarried,0,illiterate,salaried,82000,17000,34631,700000,60,503,34.98,urban,0
+L0303,male,47,unmarried,0,graduate,self-employed,79000,0,31489,1400000,120,318,39.86,semiurban,0
+L0304,female,27,unmarried,0,illiterate,salaried,127000,0,31734,1600000,240,355,24.99,urban,0
+L0305,male,50,married,1,higher studies,salaried,62000,41000,22510,1200000,360,393,21.85,semiurban,0
+L0306,female,26,married,0,graduate,salaried,94000,0,26203,1300000,120,844,27.88,semiurban,0
+L0307,male,37,married,1,higher studies,salaried,29000,8000,9933,600000,12,542,26.85,rural,0
+L0308,male,24,married,3+,graduate,salaried,87000,0,41598,400000,12,417,47.81,semiurban,0
+L0309,female,44,married,0,graduate,salaried,124000,23000,28048,1000000,60,472,19.08,rural,0
+L0310,female,43,married,0,graduate,salaried,61000,97000,18816,1600000,360,597,11.91,semiurban,0
+L0311,male,39,unmarried,0,higher studies,self-employed,84000,0,27206,1300000,120,703,32.39,rural,0
+L0312,female,53,married,3+,higher studies,salaried,51000,0,21295,1400000,360,595,41.75,rural,0
+L0313,female,24,married,2,graduate,salaried,108000,0,37689,600000,120,639,34.9,rural,0
+L0314,female,51,unmarried,0,graduate,salaried,147000,93000,42315,1500000,360,844,17.63,urban,1
+L0315,female,35,married,3+,graduate,salaried,128000,70000,41981,1500000,360,332,21.2,urban,0
+L0316,male,26,married,2,illiterate,salaried,123000,0,53039,1900000,120,611,43.12,urban,0
+L0317,male,35,unmarried,0,graduate,salaried,119000,0,56915,1200000,360,594,47.83,semiurban,0
+L0318,male,26,married,0,graduate,self-employed,79000,0,35513,2000000,360,392,44.95,urban,0
+L0319,male,27,married,2,higher studies,salaried,69000,95000,19787,500000,120,579,12.07,rural,0
+L0320,female,39,married,0,graduate,unemployed,5000,0,1960,1000000,120,359,39.2,semiurban,0
+L0321,male,43,married,0,illiterate,salaried,28000,0,9259,200000,12,455,33.07,semiurban,0
+L0322,female,60,married,1,graduate,unemployed,29000,12000,7149,700000,120,837,17.44,semiurban,0
+L0323,male,46,unmarried,0,graduate,salaried,51000,75000,19168,600000,60,709,15.21,rural,1
+L0324,female,29,unmarried,0,higher studies,self-employed,116000,14000,40634,1400000,360,631,31.26,semiurban,0
+L0325,female,48,married,2,illiterate,self-employed,78000,15000,37051,1100000,240,544,39.84,semiurban,0
+L0326,female,28,unmarried,0,graduate,unemployed,14000,83000,4313,1900000,360,310,4.45,semiurban,0
+L0327,male,55,married,0,graduate,salaried,36000,26000,10161,300000,12,491,16.39,semiurban,0
+L0328,female,37,married,0,graduate,salaried,94000,50000,25573,900000,120,373,17.76,semiurban,0
+L0329,male,21,married,0,graduate,salaried,133000,0,57676,700000,12,527,43.37,semiurban,0
+L0330,female,41,married,3+,higher studies,salaried,37000,0,14039,1800000,360,629,37.94,urban,0
+L0331,female,51,unmarried,0,higher studies,salaried,134000,66000,62251,900000,12,832,31.13,urban,1
+L0332,male,42,married,1,graduate,salaried,143000,0,38439,1500000,240,713,26.88,semiurban,0
+L0333,male,28,married,3+,graduate,salaried,125000,92000,39976,1300000,360,721,18.42,urban,1
+L0334,male,32,unmarried,0,graduate,salaried,104000,0,32942,1500000,120,570,31.67,rural,0
+L0335,male,59,married,2,higher studies,salaried,145000,58000,32737,1200000,360,759,16.13,rural,1
+L0336,male,31,married,2,graduate,salaried,109000,0,37313,300000,12,633,34.23,semiurban,0
+L0337,female,31,unmarried,0,illiterate,salaried,126000,0,61681,2000000,120,824,48.95,semiurban,0
+L0338,male,55,unmarried,0,graduate,salaried,144000,82000,56039,1200000,240,710,24.8,urban,1
+L0339,female,37,married,3+,graduate,salaried,114000,97000,48902,700000,120,760,23.18,rural,1
+L0340,male,34,married,2,graduate,salaried,29000,68000,13582,300000,120,415,14.0,urban,0
+L0341,male,55,unmarried,0,graduate,unemployed,45000,86000,20193,1300000,120,524,15.41,rural,0
+L0342,female,24,married,3+,graduate,salaried,104000,0,30725,200000,12,459,29.54,semiurban,0
+L0343,female,36,unmarried,0,illiterate,salaried,92000,77000,45277,400000,12,444,26.79,semiurban,0
+L0344,female,29,unmarried,0,graduate,salaried,145000,44000,31692,1300000,240,761,16.77,rural,1
+L0345,male,26,unmarried,0,graduate,self-employed,126000,0,45032,500000,24,614,35.74,urban,0
+L0346,female,52,married,3+,graduate,salaried,129000,44000,59939,1200000,360,565,34.65,rural,0
+L0347,female,46,unmarried,0,graduate,self-employed,162000,0,60944,1100000,360,467,37.62,rural,0
+L0348,male,29,married,2,graduate,self-employed,200000,0,53808,800000,12,721,26.9,rural,1
+L0349,male,38,married,1,graduate,unemployed,27000,0,9698,400000,60,366,35.92,urban,0
+L0350,female,52,married,1,graduate,salaried,147000,90000,30229,1400000,240,401,12.75,urban,0
+L0351,male,45,unmarried,0,graduate,salaried,100000,0,35568,300000,12,618,35.57,urban,0
+L0352,female,42,unmarried,0,graduate,salaried,133000,0,54245,1400000,120,740,40.79,urban,0
+L0353,male,33,unmarried,0,graduate,unemployed,43000,0,17423,400000,120,329,40.52,semiurban,0
+L0354,female,26,unmarried,0,graduate,salaried,143000,89000,58719,200000,60,455,25.31,rural,0
+L0355,female,48,unmarried,0,higher studies,salaried,136000,0,62268,1800000,360,408,45.79,rural,0
+L0356,male,25,unmarried,0,graduate,self-employed,173000,58000,70533,300000,120,597,30.53,rural,0
+L0357,male,37,married,3+,graduate,self-employed,109000,35000,29556,400000,60,778,20.52,semiurban,1
+L0358,female,30,unmarried,0,illiterate,salaried,54000,0,11743,1800000,120,569,21.75,rural,0
+L0359,female,42,married,2,graduate,unemployed,22000,0,8465,1000000,24,828,38.48,rural,0
+L0360,female,37,unmarried,0,illiterate,salaried,53000,0,18287,2000000,120,415,34.5,semiurban,0
+L0361,male,48,unmarried,0,higher studies,self-employed,35000,0,9829,700000,120,728,28.08,urban,0
+L0362,female,48,unmarried,0,illiterate,self-employed,108000,91000,26242,1000000,120,558,13.19,rural,0
+L0363,male,22,married,2,graduate,salaried,97000,66000,41267,1200000,120,607,25.32,urban,0
+L0364,female,31,unmarried,0,graduate,salaried,52000,87000,22772,1000000,60,649,16.38,semiurban,0
+L0365,female,50,married,2,higher studies,salaried,33000,68000,14153,200000,24,748,14.01,semiurban,1
+L0366,female,48,married,1,graduate,salaried,66000,77000,16138,1500000,120,512,11.29,rural,0
+L0367,female,41,married,1,graduate,unemployed,31000,0,14356,1100000,120,523,46.31,semiurban,0
+L0368,male,38,married,0,illiterate,self-employed,121000,69000,29599,900000,12,770,15.58,rural,1
+L0369,male,58,unmarried,0,graduate,self-employed,122000,0,42674,1700000,360,384,34.98,urban,0
+L0370,male,31,unmarried,0,graduate,self-employed,36000,0,12066,1000000,24,602,33.52,rural,0
+L0371,male,24,unmarried,0,higher studies,self-employed,84000,0,23689,1200000,120,343,28.2,semiurban,0
+L0372,female,24,unmarried,0,graduate,salaried,144000,33000,32430,1800000,240,763,18.32,semiurban,0
+L0373,male,25,married,2,higher studies,salaried,49000,0,14537,800000,120,672,29.67,semiurban,0
+L0374,male,37,married,3+,illiterate,unemployed,14000,0,5885,900000,12,390,42.04,rural,0
+L0375,female,39,married,3+,higher studies,self-employed,165000,63000,49302,1700000,240,427,21.62,urban,0
+L0376,male,53,married,1,graduate,salaried,122000,0,43447,1800000,240,596,35.61,urban,0
+L0377,male,33,unmarried,0,graduate,self-employed,129000,0,48864,1400000,240,642,37.88,rural,0
+L0378,female,37,unmarried,0,graduate,self-employed,161000,20000,48335,1000000,60,697,26.7,semiurban,0
+L0379,female,34,married,2,graduate,self-employed,59000,50000,17607,1000000,120,688,16.15,rural,0
+L0380,female,52,unmarried,0,higher studies,salaried,53000,77000,20420,1100000,120,735,15.71,semiurban,1
+L0381,male,41,married,0,graduate,self-employed,98000,72000,29884,1700000,240,843,17.58,semiurban,0
+L0382,female,33,married,0,higher studies,self-employed,121000,95000,39868,1900000,360,516,18.46,urban,0
+L0383,male,47,unmarried,0,higher studies,self-employed,84000,0,28639,1500000,360,702,34.09,semiurban,0
+L0384,male,26,unmarried,0,graduate,salaried,29000,84000,7972,1300000,120,780,7.05,urban,0
+L0385,female,21,unmarried,0,illiterate,self-employed,95000,98000,45727,1700000,360,648,23.69,semiurban,0
+L0386,male,48,married,0,graduate,salaried,150000,73000,70904,400000,120,770,31.8,semiurban,1
+L0387,female,48,married,0,illiterate,self-employed,108000,91000,24110,300000,60,778,12.12,rural,1
+L0388,female,57,unmarried,0,graduate,salaried,144000,0,36420,200000,120,707,25.29,semiurban,1
+L0389,male,23,married,1,graduate,unemployed,41000,61000,12445,2000000,360,433,12.2,urban,0
+L0390,male,27,married,0,graduate,self-employed,167000,0,61142,500000,24,548,36.61,semiurban,0
+L0391,female,22,unmarried,0,higher studies,self-employed,47000,13000,12151,400000,12,513,20.25,urban,0
+L0392,male,50,married,2,graduate,unemployed,37000,56000,11117,2000000,360,701,11.95,rural,0
+L0393,female,60,married,1,graduate,salaried,41000,85000,18603,1800000,360,523,14.76,rural,0
+L0394,female,22,married,2,graduate,salaried,93000,0,28392,500000,24,728,30.53,urban,1
+L0395,female,48,married,0,graduate,salaried,120000,0,59232,1000000,120,788,49.36,semiurban,0
+L0396,male,24,married,2,graduate,salaried,112000,0,48511,200000,24,471,43.31,semiurban,0
+L0397,male,27,unmarried,0,graduate,salaried,127000,51000,45871,700000,12,609,25.77,semiurban,0
+L0398,female,51,married,1,graduate,salaried,73000,44000,21336,1100000,360,453,18.24,semiurban,0
+L0399,male,31,married,1,higher studies,self-employed,101000,0,37334,600000,60,688,36.96,semiurban,0
+L0400,male,33,married,0,higher studies,salaried,147000,0,62370,1500000,240,843,42.43,urban,0
+L0401,male,48,unmarried,0,higher studies,salaried,29000,68000,9711,1600000,120,724,10.01,semiurban,0
+L0402,male,27,unmarried,0,graduate,self-employed,164000,0,47950,600000,120,538,29.24,urban,0
+L0403,male,48,unmarried,0,graduate,self-employed,125000,0,25688,1600000,120,373,20.55,urban,0
+L0404,female,52,married,1,graduate,salaried,148000,43000,69168,1300000,360,353,36.21,urban,0
+L0405,female,58,married,1,graduate,salaried,51000,30000,25227,800000,60,651,31.14,urban,0
+L0406,female,40,married,1,graduate,salaried,35000,60000,17301,400000,24,777,18.21,urban,1
+L0407,male,43,married,1,higher studies,self-employed,75000,11000,26799,1700000,360,641,31.16,urban,0
+L0408,male,46,unmarried,0,graduate,self-employed,169000,44000,55572,600000,60,617,26.09,urban,0
+L0409,female,34,unmarried,0,graduate,unemployed,18000,0,7679,1600000,120,436,42.66,rural,0
+L0410,female,51,unmarried,0,graduate,self-employed,195000,48000,44887,200000,12,675,18.47,urban,0
+L0411,female,52,married,3+,graduate,salaried,117000,32000,57606,700000,12,351,38.66,semiurban,0
+L0412,female,58,unmarried,0,graduate,self-employed,82000,37000,34231,1600000,120,445,28.77,urban,0
+L0413,female,39,married,1,graduate,self-employed,137000,0,32388,1300000,240,845,23.64,semiurban,1
+L0414,male,36,unmarried,0,illiterate,salaried,109000,0,29349,700000,120,614,26.93,rural,0
+L0415,male,54,unmarried,0,graduate,salaried,32000,0,7924,1300000,120,763,24.76,semiurban,0
+L0416,male,40,unmarried,0,higher studies,self-employed,198000,15000,88067,200000,12,486,41.35,semiurban,0
+L0417,female,47,unmarried,0,higher studies,self-employed,113000,0,28300,700000,12,793,25.04,urban,1
+L0418,female,55,unmarried,0,higher studies,salaried,142000,0,69297,1500000,120,343,48.8,semiurban,0
+L0419,female,57,unmarried,0,higher studies,salaried,27000,0,6935,400000,24,760,25.69,rural,0
+L0420,female,24,married,1,higher studies,salaried,80000,31000,22728,1500000,240,529,20.48,semiurban,0
+L0421,male,52,married,3+,illiterate,self-employed,50000,0,19489,1400000,240,721,38.98,rural,0
+L0422,female,54,married,3+,graduate,salaried,111000,44000,50585,1700000,120,374,32.64,urban,0
+L0423,female,43,married,0,graduate,salaried,71000,26000,26576,1400000,360,671,27.4,semiurban,0
+L0424,female,28,unmarried,0,higher studies,self-employed,159000,0,69835,1600000,360,360,43.92,rural,0
+L0425,female,43,unmarried,0,graduate,self-employed,58000,65000,12080,500000,24,618,9.82,semiurban,0
+L0426,female,24,married,1,graduate,self-employed,65000,0,14750,1200000,120,840,22.69,rural,0
+L0427,male,56,married,1,graduate,salaried,127000,0,34531,1100000,360,420,27.19,semiurban,0
+L0428,male,34,unmarried,0,graduate,salaried,32000,70000,13419,1700000,240,431,13.16,rural,0
+L0429,female,55,married,1,graduate,self-employed,160000,41000,61905,1900000,120,430,30.8,urban,0
+L0430,female,31,unmarried,0,graduate,unemployed,34000,0,7027,1200000,120,848,20.67,urban,0
+L0431,male,39,married,3+,graduate,salaried,148000,0,41345,700000,24,647,27.94,semiurban,0
+L0432,female,55,unmarried,0,graduate,salaried,59000,0,27962,1100000,120,597,47.39,semiurban,0
+L0433,male,36,unmarried,0,graduate,salaried,149000,38000,63033,1000000,120,824,33.71,rural,1
+L0434,female,27,unmarried,0,graduate,salaried,54000,72000,22534,200000,120,503,17.88,semiurban,0
+L0435,male,43,unmarried,0,graduate,self-employed,94000,0,26619,1700000,120,329,28.32,urban,0
+L0436,female,43,unmarried,0,graduate,salaried,146000,57000,38431,500000,24,755,18.93,semiurban,1
+L0437,female,38,unmarried,0,graduate,salaried,46000,0,13322,300000,12,368,28.96,semiurban,0
+L0438,male,52,married,0,graduate,salaried,72000,62000,30732,200000,120,578,22.93,semiurban,0
+L0439,female,43,married,3+,higher studies,self-employed,103000,95000,39359,300000,120,525,19.88,urban,0
+L0440,male,46,married,1,graduate,self-employed,184000,0,79032,1600000,120,838,42.95,semiurban,0
+L0441,female,21,married,2,graduate,salaried,55000,0,19568,700000,120,569,35.58,urban,0
+L0442,male,57,unmarried,0,graduate,salaried,143000,0,34185,1600000,240,817,23.91,rural,0
+L0443,male,56,unmarried,0,graduate,self-employed,187000,72000,64231,1500000,240,303,24.8,rural,0
+L0444,female,60,unmarried,0,graduate,self-employed,99000,99000,28869,1500000,240,811,14.58,urban,1
+L0445,male,33,married,1,graduate,salaried,34000,0,13840,300000,120,733,40.71,urban,0
+L0446,male,44,married,0,graduate,unemployed,14000,21000,2875,1800000,360,489,8.21,rural,0
+L0447,male,42,married,3+,graduate,salaried,82000,0,29598,800000,12,420,36.1,semiurban,0
+L0448,male,26,unmarried,0,graduate,salaried,100000,0,47252,800000,60,711,47.25,semiurban,0
+L0449,male,46,married,2,graduate,salaried,71000,0,30841,500000,24,503,43.44,urban,0
+L0450,male,40,married,1,graduate,salaried,137000,0,42675,1700000,360,750,31.15,urban,0
+L0451,male,29,married,3+,higher studies,salaried,117000,0,25193,1600000,240,475,21.53,semiurban,0
+L0452,male,56,unmarried,0,graduate,self-employed,57000,25000,25826,300000,60,579,31.5,rural,0
+L0453,male,38,unmarried,0,higher studies,unemployed,39000,0,10271,1100000,120,835,26.34,urban,0
+L0454,female,46,unmarried,0,higher studies,unemployed,48000,0,19031,600000,120,470,39.65,urban,0
+L0455,male,51,married,3+,higher studies,self-employed,186000,0,56467,2000000,120,354,30.36,semiurban,0
+L0456,male,45,married,3+,illiterate,self-employed,78000,5000,25357,1800000,120,568,30.55,semiurban,0
+L0457,male,46,married,2,higher studies,salaried,54000,0,11720,1500000,240,304,21.7,semiurban,0
+L0458,male,55,unmarried,0,graduate,salaried,123000,0,37734,1500000,360,581,30.68,semiurban,0
+L0459,female,43,married,0,graduate,salaried,29000,0,13376,500000,120,669,46.12,urban,0
+L0460,female,36,unmarried,0,graduate,salaried,139000,0,39616,800000,24,687,28.5,rural,0
+L0461,male,36,married,1,graduate,salaried,64000,13000,30794,900000,24,571,39.99,semiurban,0
+L0462,female,43,married,3+,graduate,unemployed,39000,32000,10858,1400000,120,744,15.29,urban,0
+L0463,male,48,married,3+,graduate,self-employed,127000,0,60037,900000,24,540,47.27,semiurban,0
+L0464,male,55,unmarried,0,higher studies,salaried,111000,30000,36038,1100000,360,356,25.56,urban,0
+L0465,female,35,unmarried,0,graduate,self-employed,56000,0,25548,1500000,120,596,45.62,semiurban,0
+L0466,male,60,unmarried,0,graduate,self-employed,153000,12000,60054,900000,24,752,36.4,rural,1
+L0467,female,32,unmarried,0,illiterate,unemployed,33000,0,6979,900000,12,521,21.15,semiurban,0
+L0468,female,55,unmarried,0,illiterate,self-employed,155000,0,32843,1900000,360,643,21.19,urban,0
+L0469,male,48,married,3+,graduate,salaried,71000,0,26628,700000,12,469,37.5,semiurban,0
+L0470,female,51,married,3+,graduate,unemployed,13000,0,4145,1500000,120,712,31.88,semiurban,0
+L0471,female,22,married,0,graduate,salaried,88000,0,21603,600000,60,509,24.55,semiurban,0
+L0472,female,22,unmarried,0,graduate,self-employed,88000,0,41225,1500000,360,586,46.85,urban,0
+L0473,male,55,married,1,graduate,salaried,140000,84000,49572,1300000,240,403,22.13,semiurban,0
+L0474,female,57,unmarried,0,illiterate,salaried,133000,0,64791,1800000,120,603,48.72,urban,0
+L0475,female,38,unmarried,0,graduate,self-employed,198000,98000,92156,600000,12,598,31.13,urban,0
+L0476,male,38,unmarried,0,higher studies,salaried,60000,12000,13281,600000,120,644,18.45,urban,0
+L0477,male,50,married,0,graduate,salaried,51000,56000,20385,1000000,60,800,19.05,rural,1
+L0478,male,44,married,3+,graduate,salaried,85000,11000,31204,1400000,360,589,32.5,urban,0
+L0479,female,60,married,3+,graduate,unemployed,28000,28000,12365,2000000,360,434,22.08,semiurban,0
+L0480,female,39,married,3+,graduate,salaried,81000,74000,28026,1600000,120,631,18.08,rural,0
+L0481,male,26,married,2,graduate,salaried,26000,0,9733,1900000,240,439,37.43,rural,0
+L0482,male,41,married,0,graduate,salaried,128000,19000,42699,400000,120,325,29.05,semiurban,0
+L0483,male,30,married,0,graduate,salaried,44000,30000,16029,200000,12,329,21.66,urban,0
+L0484,female,51,unmarried,0,higher studies,salaried,105000,95000,33171,1200000,240,436,16.59,semiurban,0
+L0485,female,52,married,1,graduate,self-employed,97000,34000,21226,1400000,120,379,16.2,rural,0
+L0486,male,39,married,1,graduate,self-employed,186000,6000,52177,600000,12,625,27.18,semiurban,0
+L0487,male,40,unmarried,0,graduate,self-employed,115000,0,49328,300000,120,569,42.89,rural,0
+L0488,female,30,married,2,graduate,self-employed,38000,0,12379,800000,60,849,32.58,rural,0
+L0489,female,56,unmarried,0,graduate,salaried,150000,0,42002,1300000,360,576,28.0,semiurban,0
+L0490,female,33,unmarried,0,graduate,unemployed,48000,91000,17234,300000,60,375,12.4,semiurban,0
+L0491,male,24,unmarried,0,graduate,self-employed,142000,0,30409,1000000,120,808,21.41,semiurban,1
+L0492,female,33,married,2,higher studies,salaried,115000,67000,56792,1000000,24,329,31.2,rural,0
+L0493,female,56,unmarried,0,higher studies,salaried,78000,87000,20676,2000000,240,433,12.53,urban,0
+L0494,male,51,unmarried,0,graduate,salaried,118000,33000,50904,1500000,360,650,33.71,urban,0
+L0495,female,29,married,0,graduate,salaried,57000,0,21294,800000,24,836,37.36,urban,0
+L0496,male,27,married,0,higher studies,salaried,83000,99000,25007,800000,60,605,13.74,rural,0
+L0497,female,54,married,3+,graduate,salaried,111000,8000,36540,1000000,12,341,30.71,urban,0
+L0498,male,36,married,1,graduate,salaried,66000,86000,18717,800000,24,593,12.31,rural,0
+L0499,male,30,married,0,graduate,salaried,105000,0,37739,800000,12,570,35.94,urban,0
+L0500,female,35,unmarried,0,higher studies,salaried,144000,0,40732,400000,24,510,28.29,semiurban,0
+L0501,male,54,unmarried,0,higher studies,salaried,113000,6000,54168,2000000,120,542,45.52,urban,0
+L0502,female,43,married,0,graduate,salaried,60000,0,23531,300000,12,532,39.22,urban,0
+L0503,female,50,unmarried,0,graduate,salaried,132000,65000,49852,1200000,240,468,25.31,semiurban,0
+L0504,female,50,unmarried,0,graduate,salaried,28000,0,10421,1400000,360,387,37.22,semiurban,0
+L0505,male,47,unmarried,0,graduate,self-employed,161000,7000,54716,2000000,360,816,32.57,semiurban,0
+L0506,female,33,married,3+,graduate,self-employed,176000,0,84559,1700000,240,611,48.04,semiurban,0
+L0507,female,40,unmarried,0,graduate,unemployed,44000,88000,10043,700000,24,586,7.61,rural,0
+L0508,male,54,unmarried,0,graduate,salaried,28000,69000,13315,700000,120,441,13.73,rural,0
+L0509,female,48,unmarried,0,graduate,unemployed,33000,0,9442,300000,24,717,28.61,semiurban,1
+L0510,female,39,unmarried,0,graduate,salaried,52000,100000,10562,300000,24,327,6.95,rural,0
+L0511,female,32,unmarried,0,higher studies,salaried,130000,0,52598,500000,60,318,40.46,rural,0
+L0512,male,39,unmarried,0,graduate,salaried,30000,65000,6473,200000,24,830,6.81,rural,1
+L0513,male,60,married,3+,graduate,salaried,127000,90000,50773,300000,24,681,23.4,semiurban,0
+L0514,female,57,married,3+,graduate,salaried,148000,43000,54419,1900000,360,422,28.49,semiurban,0
+L0515,female,46,married,2,graduate,self-employed,54000,44000,15494,300000,60,834,15.81,urban,1
+L0516,male,60,married,2,graduate,salaried,137000,62000,53179,600000,60,326,26.72,semiurban,0
+L0517,male,28,unmarried,0,illiterate,salaried,97000,0,31509,1000000,120,403,32.48,urban,0
+L0518,female,44,married,1,graduate,salaried,27000,52000,12559,600000,12,319,15.9,rural,0
+L0519,male,54,unmarried,0,graduate,salaried,43000,92000,9653,1400000,360,849,7.15,semiurban,0
+L0520,female,51,married,2,higher studies,unemployed,40000,0,15916,600000,120,839,39.79,rural,0
+L0521,male,23,unmarried,0,graduate,salaried,126000,69000,50342,200000,12,474,25.82,semiurban,0
+L0522,male,54,married,0,illiterate,self-employed,168000,78000,62637,1800000,240,600,25.46,urban,0
+L0523,female,43,unmarried,0,illiterate,unemployed,7000,0,2191,1500000,240,315,31.3,semiurban,0
+L0524,male,25,unmarried,0,graduate,salaried,125000,27000,36288,600000,60,568,23.87,rural,0
+L0525,female,40,married,0,graduate,self-employed,76000,79000,20255,1300000,240,467,13.07,semiurban,0
+L0526,male,53,married,2,graduate,unemployed,11000,0,4692,200000,120,312,42.65,rural,0
+L0527,female,25,unmarried,0,graduate,self-employed,82000,0,36979,1800000,120,783,45.1,rural,0
+L0528,male,53,married,1,graduate,salaried,66000,0,31089,500000,60,535,47.1,semiurban,0
+L0529,female,54,unmarried,0,graduate,salaried,125000,29000,35637,1800000,360,780,23.14,rural,0
+L0530,male,52,unmarried,0,graduate,salaried,138000,0,64448,1400000,240,573,46.7,rural,0
+L0531,female,21,married,2,graduate,self-employed,116000,0,42677,1300000,240,762,36.79,semiurban,0
+L0532,male,49,unmarried,0,graduate,unemployed,11000,79000,3985,1900000,360,304,4.43,rural,0
+L0533,female,52,married,1,higher studies,self-employed,53000,0,21481,1900000,240,792,40.53,semiurban,0
+L0534,female,44,unmarried,0,graduate,salaried,88000,77000,38090,500000,12,631,23.08,semiurban,0
+L0535,male,49,married,0,graduate,self-employed,50000,20000,19122,1800000,240,842,27.32,rural,0
+L0536,male,23,unmarried,0,higher studies,salaried,97000,0,44643,1200000,240,683,46.02,urban,0
+L0537,female,24,unmarried,0,graduate,salaried,25000,28000,8237,1400000,360,771,15.54,rural,0
+L0538,male,60,married,1,graduate,salaried,77000,0,15642,800000,12,785,20.31,urban,0
+L0539,male,28,married,1,graduate,salaried,79000,52000,18032,700000,12,355,13.76,semiurban,0
+L0540,male,28,married,3+,illiterate,self-employed,112000,0,23480,600000,60,626,20.96,semiurban,0
+L0541,female,54,unmarried,0,graduate,salaried,40000,84000,12420,1900000,360,342,10.02,semiurban,0
+L0542,female,49,unmarried,0,higher studies,salaried,48000,14000,11744,700000,120,649,18.94,rural,0
+L0543,female,41,married,1,graduate,salaried,97000,65000,20966,1200000,120,659,12.94,semiurban,0
+L0544,male,22,unmarried,0,graduate,self-employed,197000,0,74238,1000000,12,665,37.68,urban,0
+L0545,male,23,unmarried,0,higher studies,unemployed,30000,30000,10262,800000,12,714,17.1,semiurban,0
+L0546,female,57,unmarried,0,illiterate,self-employed,79000,86000,24947,700000,60,589,15.12,semiurban,0
+L0547,female,53,married,0,higher studies,salaried,107000,59000,28564,300000,120,726,17.21,semiurban,1
+L0548,male,49,unmarried,0,graduate,salaried,104000,10000,34919,700000,12,792,30.63,rural,1
+L0549,female,30,married,2,graduate,salaried,49000,0,11019,1600000,360,678,22.49,semiurban,0
+L0550,female,24,unmarried,0,graduate,salaried,74000,38000,30652,500000,24,584,27.37,semiurban,0
+L0551,female,40,unmarried,0,graduate,self-employed,66000,0,27503,1400000,360,314,41.67,urban,0
+L0552,male,43,unmarried,0,graduate,self-employed,155000,0,57911,1000000,120,783,37.36,rural,1
+L0553,male,60,married,0,graduate,salaried,36000,0,8253,1600000,240,454,22.93,semiurban,0
+L0554,female,46,unmarried,0,graduate,self-employed,197000,27000,65009,1900000,120,480,29.02,semiurban,0
+L0555,male,60,unmarried,0,graduate,salaried,81000,26000,23918,1600000,360,582,22.35,urban,0
+L0556,male,35,unmarried,0,graduate,salaried,55000,0,24739,1100000,120,383,44.98,rural,0
+L0557,female,33,married,2,graduate,unemployed,32000,0,10350,1400000,240,576,32.34,urban,0
+L0558,male,23,unmarried,0,graduate,salaried,51000,31000,19872,1200000,120,770,24.23,semiurban,0
+L0559,female,51,unmarried,0,graduate,self-employed,97000,44000,35455,700000,24,768,25.15,semiurban,1
+L0560,female,39,married,1,graduate,salaried,86000,0,29994,1500000,240,380,34.88,urban,0
+L0561,female,41,unmarried,0,graduate,self-employed,114000,63000,32558,700000,12,425,18.39,urban,0
+L0562,male,31,married,3+,graduate,self-employed,81000,93000,32378,500000,120,608,18.61,semiurban,0
+L0563,male,60,married,1,graduate,unemployed,38000,32000,15036,1300000,240,579,21.48,rural,0
+L0564,male,42,married,3+,graduate,salaried,107000,0,36036,500000,60,550,33.68,semiurban,0
+L0565,female,57,unmarried,0,graduate,self-employed,68000,0,26142,700000,12,350,38.44,rural,0
+L0566,female,35,unmarried,0,graduate,salaried,131000,26000,48369,600000,12,514,30.81,semiurban,0
+L0567,female,28,married,0,graduate,self-employed,75000,0,30246,200000,60,321,40.33,semiurban,0
+L0568,female,58,unmarried,0,graduate,self-employed,160000,0,33315,1900000,120,542,20.82,urban,0
+L0569,female,25,married,3+,higher studies,salaried,132000,72000,27518,700000,12,414,13.49,urban,0
+L0570,male,33,married,2,graduate,salaried,90000,45000,32349,700000,60,688,23.96,rural,0
+L0571,male,43,married,3+,graduate,salaried,91000,48000,20625,700000,24,504,14.84,rural,0
+L0572,male,21,married,0,higher studies,unemployed,12000,0,3356,1800000,120,509,27.97,urban,0
+L0573,male,38,unmarried,0,graduate,self-employed,55000,20000,21728,1300000,240,767,28.97,semiurban,0
+L0574,female,30,married,2,graduate,salaried,34000,0,15390,1100000,360,328,45.26,rural,0
+L0575,female,46,unmarried,0,higher studies,salaried,110000,0,48150,700000,12,790,43.77,urban,0
+L0576,male,60,unmarried,0,illiterate,self-employed,58000,92000,11859,1300000,240,649,7.91,urban,0
+L0577,female,34,unmarried,0,graduate,self-employed,45000,0,21323,1600000,240,784,47.38,semiurban,0
+L0578,male,45,married,2,graduate,self-employed,138000,0,45068,1300000,120,381,32.66,semiurban,0
+L0579,female,49,unmarried,0,graduate,self-employed,118000,0,50188,2000000,360,485,42.53,urban,0
+L0580,male,31,unmarried,0,illiterate,salaried,120000,16000,57849,1300000,240,715,42.54,semiurban,0
+L0581,male,37,married,2,graduate,unemployed,10000,0,2144,1400000,360,750,21.44,semiurban,0
+L0582,female,27,married,1,graduate,salaried,51000,0,21598,900000,12,473,42.35,rural,0
+L0583,female,38,married,1,graduate,unemployed,31000,0,13109,400000,60,657,42.29,rural,0
+L0584,male,28,married,2,graduate,self-employed,155000,0,66641,2000000,120,312,42.99,rural,0
+L0585,male,39,married,1,graduate,self-employed,50000,18000,17899,1600000,240,776,26.32,semiurban,0
+L0586,male,21,unmarried,0,graduate,unemployed,35000,0,12546,1700000,120,796,35.85,rural,0
+L0587,male,38,unmarried,0,graduate,salaried,105000,0,26003,1000000,24,672,24.76,semiurban,0
+L0588,male,42,unmarried,0,illiterate,salaried,125000,0,42770,800000,24,661,34.22,rural,0
+L0589,female,55,unmarried,0,graduate,salaried,89000,0,36566,2000000,360,727,41.09,urban,0
+L0590,male,55,unmarried,0,graduate,salaried,41000,6000,16995,300000,24,743,36.16,semiurban,1
+L0591,male,54,unmarried,0,graduate,self-employed,169000,0,69792,1900000,360,831,41.3,semiurban,0
+L0592,male,50,married,3+,graduate,salaried,53000,7000,17771,1400000,360,651,29.62,semiurban,0
+L0593,male,41,unmarried,0,graduate,salaried,41000,36000,12508,600000,12,746,16.24,semiurban,1
+L0594,male,27,unmarried,0,graduate,unemployed,11000,77000,4490,1600000,120,772,5.1,urban,0
+L0595,male,38,unmarried,0,graduate,salaried,40000,0,8768,1500000,120,351,21.92,semiurban,0
+L0596,female,45,unmarried,0,graduate,salaried,136000,12000,28992,700000,60,416,19.59,rural,0
+L0597,male,32,unmarried,0,graduate,self-employed,103000,0,39784,1400000,240,651,38.63,semiurban,0
+L0598,male,59,married,1,higher studies,salaried,110000,0,30021,800000,60,465,27.29,semiurban,0
+L0599,female,38,unmarried,0,graduate,salaried,127000,0,38593,1300000,360,431,30.39,semiurban,0
+L0600,female,49,unmarried,0,higher studies,salaried,38000,42000,13958,2000000,120,540,17.45,urban,0
+L0601,male,24,unmarried,0,graduate,self-employed,134000,60000,63139,800000,24,671,32.55,rural,0
+L0602,female,40,unmarried,0,graduate,salaried,93000,27000,22936,900000,60,828,19.11,urban,1
+L0603,female,37,married,2,graduate,salaried,25000,32000,9368,1400000,240,421,16.44,rural,0
+L0604,male,46,married,2,graduate,unemployed,41000,50000,15582,1900000,120,347,17.12,rural,0
+L0605,male,46,unmarried,0,higher studies,self-employed,72000,0,20789,200000,24,844,28.87,rural,1
+L0606,male,32,unmarried,0,graduate,salaried,104000,74000,21711,500000,120,319,12.2,urban,0
+L0607,female,56,married,2,graduate,salaried,85000,0,30472,1700000,360,334,35.85,urban,0
+L0608,male,26,married,1,graduate,salaried,132000,0,54281,700000,120,360,41.12,urban,0
+L0609,female,23,married,0,illiterate,self-employed,187000,58000,66188,600000,120,595,27.02,rural,0
+L0610,female,23,unmarried,0,graduate,salaried,45000,96000,17722,300000,24,429,12.57,semiurban,0
+L0611,male,48,married,3+,graduate,unemployed,8000,51000,3082,1300000,120,785,5.22,urban,0
+L0612,female,27,unmarried,0,illiterate,salaried,103000,92000,31300,1900000,120,594,16.05,urban,0
+L0613,male,34,married,2,graduate,salaried,29000,35000,8031,1400000,120,824,12.55,urban,0
+L0614,female,37,unmarried,0,graduate,unemployed,8000,79000,2574,700000,12,459,2.96,semiurban,0
+L0615,male,55,married,1,graduate,self-employed,96000,56000,22572,600000,12,564,14.85,rural,0
+L0616,female,26,married,2,graduate,salaried,93000,0,39477,200000,60,718,42.45,urban,0
+L0617,female,46,unmarried,0,graduate,salaried,46000,0,16123,600000,12,387,35.05,semiurban,0
+L0618,female,23,unmarried,0,graduate,salaried,28000,55000,6236,1200000,360,578,7.51,semiurban,0
+L0619,female,44,unmarried,0,graduate,salaried,47000,0,13248,1100000,240,584,28.19,semiurban,0
+L0620,female,51,unmarried,0,higher studies,self-employed,192000,0,76502,2000000,240,769,39.84,urban,0
+L0621,male,28,unmarried,0,graduate,self-employed,166000,0,64049,800000,24,799,38.58,rural,1
+L0622,male,57,married,3+,graduate,salaried,80000,0,26359,500000,24,347,32.95,rural,0
+L0623,male,40,married,1,higher studies,unemployed,16000,12000,3556,1500000,120,588,12.7,rural,0
+L0624,male,44,unmarried,0,graduate,salaried,35000,65000,11971,1000000,24,463,11.97,rural,0
+L0625,male,50,unmarried,0,graduate,self-employed,74000,0,24062,1000000,12,439,32.52,urban,0
+L0626,female,46,unmarried,0,higher studies,salaried,109000,83000,23865,800000,60,780,12.43,urban,1
+L0627,female,43,married,3+,graduate,unemployed,32000,18000,6727,1000000,120,836,13.45,urban,0
+L0628,male,38,married,1,graduate,salaried,26000,21000,12592,200000,60,532,26.79,urban,0
+L0629,male,28,unmarried,0,graduate,self-employed,68000,0,15236,2000000,360,811,22.41,rural,0
+L0630,male,60,married,2,higher studies,salaried,129000,24000,52833,500000,24,805,34.53,semiurban,1
+L0631,male,37,unmarried,0,higher studies,self-employed,160000,0,78240,1600000,120,560,48.9,semiurban,0
+L0632,female,40,unmarried,0,graduate,salaried,103000,0,34793,500000,120,341,33.78,urban,0
+L0633,female,25,married,0,illiterate,salaried,34000,0,10951,800000,60,709,32.21,rural,0
+L0634,male,26,married,2,illiterate,salaried,94000,0,43715,1500000,360,587,46.51,rural,0
+L0635,male,34,unmarried,0,graduate,salaried,25000,69000,7367,600000,12,449,7.84,semiurban,0
+L0636,female,58,unmarried,0,graduate,salaried,29000,5000,11204,200000,24,511,32.95,urban,0
+L0637,female,35,married,3+,graduate,unemployed,6000,63000,1962,900000,12,795,2.84,semiurban,0
+L0638,female,49,unmarried,0,graduate,self-employed,199000,52000,89099,200000,24,672,35.5,semiurban,0
+L0639,male,43,married,0,graduate,salaried,26000,23000,10341,200000,120,811,21.1,rural,1
+L0640,male,30,married,2,higher studies,self-employed,125000,0,30967,500000,24,472,24.77,rural,0
+L0641,male,23,unmarried,0,graduate,salaried,60000,30000,20244,1500000,360,583,22.49,semiurban,0
+L0642,male,50,married,3+,illiterate,salaried,97000,0,25050,1900000,360,476,25.82,rural,0
+L0643,male,46,unmarried,0,graduate,self-employed,146000,0,40723,1000000,120,398,27.89,urban,0
+L0644,male,28,married,3+,illiterate,self-employed,88000,0,42133,1300000,360,811,47.88,rural,0
+L0645,female,56,married,0,higher studies,salaried,44000,0,16753,1000000,120,740,38.07,semiurban,0
+L0646,male,44,unmarried,0,graduate,self-employed,125000,0,43864,1800000,360,377,35.09,rural,0
+L0647,male,22,married,0,graduate,self-employed,44000,0,21630,1900000,240,584,49.16,semiurban,0
+L0648,female,29,married,0,graduate,salaried,121000,9000,36625,1800000,120,369,28.17,urban,0
+L0649,female,47,unmarried,0,graduate,self-employed,196000,0,63861,1100000,120,434,32.58,semiurban,0
+L0650,male,40,married,3+,higher studies,salaried,72000,0,25589,700000,120,442,35.54,urban,0
+L0651,female,26,unmarried,0,graduate,salaried,131000,62000,51642,500000,60,499,26.76,semiurban,0
+L0652,female,37,married,2,graduate,salaried,123000,6000,51252,600000,120,664,39.73,urban,0
+L0653,female,59,married,1,graduate,self-employed,49000,0,20043,1100000,360,505,40.9,rural,0
+L0654,male,47,married,3+,higher studies,salaried,92000,0,28871,1600000,240,555,31.38,urban,0
+L0655,male,39,married,3+,higher studies,salaried,67000,13000,30212,600000,60,383,37.77,rural,0
+L0656,female,29,married,3+,graduate,salaried,62000,51000,27136,1300000,120,414,24.01,semiurban,0
+L0657,female,38,married,0,graduate,self-employed,73000,0,17150,300000,12,566,23.49,semiurban,0
+L0658,male,50,unmarried,0,graduate,self-employed,64000,56000,16272,1400000,240,738,13.56,semiurban,0
+L0659,female,42,unmarried,0,graduate,self-employed,200000,0,59862,1500000,120,791,29.93,semiurban,1
+L0660,female,43,unmarried,0,graduate,self-employed,127000,0,35912,300000,60,488,28.28,rural,0
+L0661,female,37,married,3+,higher studies,salaried,51000,0,16726,1600000,240,658,32.8,semiurban,0
+L0662,male,53,married,3+,graduate,salaried,143000,85000,50843,800000,120,811,22.3,rural,1
+L0663,male,30,married,1,higher studies,salaried,150000,0,64769,1200000,360,794,43.18,semiurban,0
+L0664,female,22,unmarried,0,graduate,salaried,143000,10000,43827,600000,120,696,28.65,semiurban,0
+L0665,male,37,unmarried,0,graduate,salaried,50000,0,16074,1900000,360,660,32.15,urban,0
+L0666,male,47,unmarried,0,higher studies,salaried,58000,84000,14333,1300000,240,823,10.09,rural,1
+L0667,female,53,married,1,graduate,self-employed,22000,30000,8751,1800000,240,340,16.83,semiurban,0
+L0668,female,45,unmarried,0,graduate,self-employed,175000,0,83696,1600000,240,339,47.83,urban,0
+L0669,male,24,unmarried,0,graduate,self-employed,105000,5000,49589,600000,60,691,45.08,urban,0
+L0670,male,36,unmarried,0,graduate,salaried,96000,96000,32574,600000,12,736,16.97,semiurban,1
+L0671,female,43,unmarried,0,graduate,salaried,121000,0,24421,500000,24,508,20.18,semiurban,0
+L0672,male,31,married,2,graduate,salaried,81000,90000,24668,1200000,240,558,14.43,semiurban,0
+L0673,male,55,married,2,graduate,salaried,134000,33000,43858,500000,60,625,26.26,rural,0
+L0674,female,36,married,0,graduate,salaried,89000,0,29275,1800000,120,639,32.89,rural,0
+L0675,female,29,married,2,higher studies,self-employed,98000,0,29139,1700000,240,732,29.73,semiurban,0
+L0676,male,59,unmarried,0,graduate,salaried,111000,56000,42813,1600000,240,809,25.64,semiurban,1
+L0677,male,42,unmarried,0,graduate,salaried,130000,5000,35751,1700000,120,303,26.48,semiurban,0
+L0678,male,28,married,2,graduate,salaried,104000,0,21861,500000,24,672,21.02,rural,0
+L0679,female,24,unmarried,0,illiterate,self-employed,169000,27000,47900,500000,12,352,24.44,rural,0
+L0680,male,45,unmarried,0,graduate,salaried,102000,83000,31380,1500000,360,532,16.96,rural,0
+L0681,male,29,unmarried,0,higher studies,salaried,72000,0,32584,400000,60,626,45.26,urban,0
+L0682,female,50,unmarried,0,graduate,self-employed,149000,80000,41802,800000,120,312,18.25,urban,0
+L0683,male,50,married,0,illiterate,self-employed,73000,61000,19609,1900000,120,410,14.63,rural,0
+L0684,female,35,unmarried,0,illiterate,self-employed,98000,0,34905,500000,120,380,35.62,urban,0
+L0685,female,27,married,0,graduate,self-employed,106000,0,41380,200000,60,318,39.04,semiurban,0
+L0686,male,43,unmarried,0,graduate,self-employed,115000,0,40367,1000000,24,449,35.1,urban,0
+L0687,male,28,unmarried,0,higher studies,self-employed,125000,82000,26978,1500000,240,780,13.03,semiurban,1
+L0688,female,39,unmarried,0,graduate,self-employed,56000,0,16618,1300000,240,564,29.68,semiurban,0
+L0689,male,22,married,2,graduate,salaried,114000,0,35725,600000,12,389,31.34,urban,0
+L0690,male,46,unmarried,0,higher studies,unemployed,11000,0,3586,900000,60,812,32.6,semiurban,0
+L0691,male,54,married,1,graduate,salaried,106000,45000,41011,700000,24,529,27.16,semiurban,0
+L0692,female,23,married,0,graduate,salaried,77000,71000,35567,1900000,120,762,24.03,semiurban,0
+L0693,female,51,unmarried,0,graduate,salaried,83000,0,34463,1900000,360,846,41.52,rural,0
+L0694,female,25,unmarried,0,illiterate,self-employed,103000,5000,25990,400000,12,312,24.06,rural,0
+L0695,female,51,unmarried,0,graduate,salaried,34000,53000,12003,200000,24,828,13.8,semiurban,1
+L0696,male,25,married,3+,graduate,salaried,76000,0,36425,900000,12,402,47.93,urban,0
+L0697,female,36,married,0,illiterate,salaried,105000,0,42365,1300000,120,621,40.35,urban,0
+L0698,male,49,married,1,higher studies,unemployed,17000,62000,8483,200000,12,518,10.74,urban,0
+L0699,female,36,married,0,illiterate,salaried,47000,0,15916,300000,60,743,33.86,semiurban,1
+L0700,female,33,married,0,illiterate,salaried,80000,91000,26908,900000,120,471,15.74,rural,0
+L0701,male,26,unmarried,0,graduate,salaried,41000,68000,12404,1800000,120,804,11.38,urban,0
+L0702,female,49,married,3+,graduate,self-employed,127000,0,33135,400000,120,684,26.09,rural,0
+L0703,male,40,unmarried,0,illiterate,self-employed,31000,6000,11877,1200000,360,603,32.1,semiurban,0
+L0704,female,24,married,1,graduate,salaried,63000,66000,13981,800000,24,843,10.84,urban,1
+L0705,female,23,unmarried,0,graduate,self-employed,73000,88000,22513,1000000,24,538,13.98,rural,0
+L0706,male,55,unmarried,0,graduate,self-employed,163000,11000,78093,700000,24,583,44.88,semiurban,0
+L0707,male,34,married,1,graduate,self-employed,32000,0,13713,1200000,240,774,42.85,rural,0
+L0708,female,56,unmarried,0,higher studies,self-employed,161000,0,62357,200000,12,585,38.73,urban,0
+L0709,female,57,unmarried,0,higher studies,salaried,115000,0,23643,1500000,120,302,20.56,semiurban,0
+L0710,male,22,married,2,graduate,salaried,35000,0,14071,1000000,24,679,40.2,semiurban,0
+L0711,female,44,married,3+,higher studies,self-employed,21000,0,8253,1700000,120,679,39.3,rural,0
+L0712,male,57,married,0,graduate,self-employed,177000,0,68186,1900000,120,429,38.52,urban,0
+L0713,male,38,unmarried,0,higher studies,unemployed,26000,0,12967,1700000,360,413,49.87,urban,0
+L0714,female,51,unmarried,0,higher studies,self-employed,131000,28000,42312,800000,24,399,26.61,rural,0
+L0715,male,52,married,0,illiterate,salaried,122000,80000,24991,600000,60,696,12.37,urban,0
+L0716,female,24,married,1,graduate,salaried,101000,0,40550,1400000,240,556,40.15,rural,0
+L0717,male,26,married,0,graduate,salaried,102000,0,36090,900000,12,717,35.38,urban,1
+L0718,female,56,unmarried,0,graduate,salaried,35000,0,12029,200000,12,710,34.37,semiurban,1
+L0719,male,44,unmarried,0,graduate,self-employed,57000,0,20396,800000,120,702,35.78,semiurban,0
+L0720,male,30,married,0,graduate,salaried,101000,0,39603,1100000,360,627,39.21,semiurban,0
+L0721,male,55,married,3+,graduate,salaried,99000,0,20924,200000,120,624,21.14,urban,0
+L0722,female,45,married,3+,graduate,salaried,138000,77000,33275,900000,12,821,15.48,urban,1
+L0723,female,39,married,1,graduate,salaried,68000,27000,14911,1300000,240,706,15.7,semiurban,0
+L0724,male,25,married,0,graduate,self-employed,29000,87000,5968,1500000,240,737,5.14,urban,0
+L0725,female,32,unmarried,0,higher studies,salaried,75000,67000,29033,500000,120,357,20.45,rural,0
+L0726,female,54,married,3+,graduate,salaried,75000,82000,31778,200000,120,529,20.24,rural,0
+L0727,male,53,married,3+,graduate,salaried,79000,0,22746,400000,24,824,28.79,semiurban,1
+L0728,female,33,married,3+,graduate,salaried,145000,59000,37413,500000,120,536,18.34,semiurban,0
+L0729,female,50,unmarried,0,illiterate,self-employed,117000,12000,50372,800000,60,364,39.05,urban,0
+L0730,male,27,married,1,graduate,self-employed,36000,0,7596,2000000,240,398,21.1,semiurban,0
+L0731,female,47,married,0,graduate,salaried,107000,0,44749,1700000,120,541,41.82,urban,0
+L0732,male,56,unmarried,0,graduate,self-employed,106000,82000,27171,1700000,360,386,14.45,urban,0
+L0733,female,46,unmarried,0,higher studies,salaried,104000,64000,32250,1200000,240,440,19.2,rural,0
+L0734,female,25,unmarried,0,higher studies,self-employed,87000,25000,27266,1100000,120,562,24.34,semiurban,0
+L0735,female,35,unmarried,0,graduate,salaried,130000,0,33058,1100000,240,326,25.43,semiurban,0
+L0736,female,26,unmarried,0,graduate,salaried,137000,56000,62937,1700000,120,790,32.61,rural,1
+L0737,female,42,married,3+,graduate,unemployed,33000,0,11347,1400000,120,731,34.38,urban,0
+L0738,male,59,married,1,graduate,unemployed,27000,70000,11754,1900000,120,544,12.12,urban,0
+L0739,male,37,married,2,graduate,self-employed,124000,87000,50312,1500000,120,753,23.84,urban,1
+L0740,female,45,married,3+,graduate,salaried,139000,35000,32378,1200000,120,634,18.61,urban,0
+L0741,male,55,married,1,graduate,salaried,133000,62000,51968,700000,12,565,26.65,urban,0
+L0742,male,23,married,2,graduate,salaried,25000,62000,6369,1900000,360,598,7.32,urban,0
+L0743,female,42,unmarried,0,graduate,self-employed,147000,49000,70040,2000000,120,683,35.73,rural,0
+L0744,male,26,married,3+,illiterate,salaried,93000,0,30074,1200000,360,450,32.34,rural,0
+L0745,female,34,unmarried,0,graduate,self-employed,167000,0,81801,200000,24,567,48.98,urban,0
+L0746,female,31,married,2,higher studies,self-employed,27000,12000,10537,300000,60,693,27.02,rural,0
+L0747,female,55,married,1,graduate,self-employed,70000,0,17283,300000,12,336,24.69,semiurban,0
+L0748,female,24,unmarried,0,graduate,self-employed,76000,0,25498,200000,24,602,33.55,semiurban,0
+L0749,male,49,unmarried,0,higher studies,self-employed,118000,0,55430,1300000,240,403,46.97,rural,0
+L0750,female,30,married,1,graduate,self-employed,132000,0,50657,400000,24,417,38.38,urban,0
+L0751,male,21,unmarried,0,graduate,salaried,133000,92000,55012,500000,120,411,24.45,rural,0
+L0752,male,54,married,0,illiterate,salaried,44000,0,12714,400000,24,441,28.9,urban,0
+L0753,female,39,married,3+,illiterate,self-employed,89000,96000,40072,2000000,360,518,21.66,urban,0
+L0754,male,49,unmarried,0,graduate,salaried,92000,0,26522,700000,12,509,28.83,urban,0
+L0755,male,44,unmarried,0,graduate,salaried,52000,51000,11126,1600000,240,336,10.8,rural,0
+L0756,male,44,married,1,higher studies,self-employed,99000,0,43567,1300000,360,779,44.01,rural,0
+L0757,female,33,married,1,graduate,salaried,97000,0,22870,500000,60,546,23.58,urban,0
+L0758,female,29,married,2,higher studies,self-employed,128000,0,34523,1900000,240,417,26.97,rural,0
+L0759,female,32,married,3+,illiterate,salaried,76000,0,30644,1200000,360,776,40.32,urban,0
+L0760,male,37,unmarried,0,graduate,self-employed,134000,73000,40902,1800000,120,848,19.76,semiurban,1
+L0761,male,50,unmarried,0,graduate,salaried,142000,0,34360,800000,60,622,24.2,semiurban,0
+L0762,male,47,married,0,graduate,self-employed,53000,6000,23608,1900000,240,590,40.01,rural,0
+L0763,male,53,married,0,graduate,self-employed,173000,0,54774,500000,120,483,31.66,urban,0
+L0764,female,34,married,3+,graduate,self-employed,171000,0,43699,1100000,120,617,25.55,urban,0
+L0765,male,45,married,2,graduate,self-employed,123000,0,35410,1300000,120,596,28.79,semiurban,0
+L0766,male,55,unmarried,0,graduate,salaried,42000,0,12816,200000,120,835,30.51,urban,1
+L0767,male,43,unmarried,0,graduate,salaried,69000,0,26709,500000,24,789,38.71,rural,1
+L0768,male,31,married,2,graduate,salaried,45000,43000,21593,300000,24,743,24.54,semiurban,1
+L0769,female,31,unmarried,0,higher studies,salaried,33000,0,16343,600000,24,488,49.52,semiurban,0
+L0770,male,60,married,1,higher studies,salaried,59000,0,15792,600000,12,516,26.77,semiurban,0
+L0771,male,37,married,3+,higher studies,salaried,149000,0,73659,2000000,360,308,49.44,urban,0
+L0772,male,47,unmarried,0,graduate,self-employed,110000,21000,41709,200000,120,781,31.84,semiurban,1
+L0773,male,23,unmarried,0,graduate,salaried,92000,21000,30866,500000,12,679,27.32,semiurban,0
+L0774,male,28,unmarried,0,higher studies,self-employed,123000,0,59472,1000000,24,383,48.35,urban,0
+L0775,male,21,unmarried,0,higher studies,self-employed,177000,0,58461,400000,60,726,33.03,semiurban,1
+L0776,male,36,unmarried,0,higher studies,salaried,124000,37000,36976,1200000,120,714,22.97,semiurban,1
+L0777,male,50,married,0,illiterate,self-employed,122000,0,56431,1000000,120,807,46.25,semiurban,0
+L0778,male,43,married,3+,graduate,salaried,62000,0,26200,300000,120,427,42.26,urban,0
+L0779,female,42,married,2,higher studies,self-employed,59000,0,24605,1900000,360,327,41.7,urban,0
+L0780,female,26,unmarried,0,higher studies,self-employed,150000,0,52301,1700000,240,750,34.87,semiurban,0
+L0781,female,57,unmarried,0,graduate,unemployed,29000,0,8409,700000,12,453,29.0,rural,0
+L0782,male,59,married,1,graduate,salaried,143000,29000,40193,1600000,120,361,23.37,semiurban,0
+L0783,female,25,unmarried,0,graduate,self-employed,130000,0,59170,2000000,360,516,45.52,urban,0
+L0784,male,30,unmarried,0,illiterate,salaried,102000,85000,35103,1400000,240,593,18.77,rural,0
+L0785,female,35,unmarried,0,graduate,self-employed,57000,58000,13089,700000,12,359,11.38,semiurban,0
+L0786,male,57,married,3+,higher studies,salaried,83000,0,37955,500000,60,398,45.73,rural,0
+L0787,male,52,unmarried,0,higher studies,unemployed,49000,0,22282,1400000,120,741,45.47,rural,0
+L0788,female,54,married,1,graduate,self-employed,64000,10000,22125,1900000,120,674,29.9,semiurban,0
+L0789,male,31,married,3+,graduate,salaried,99000,0,45341,700000,60,751,45.8,rural,0
+L0790,male,33,married,1,graduate,unemployed,20000,0,6282,1000000,24,741,31.41,semiurban,0
+L0791,female,59,unmarried,0,graduate,salaried,147000,19000,45481,200000,60,626,27.4,semiurban,0
+L0792,male,52,married,2,illiterate,self-employed,196000,43000,47384,900000,24,417,19.83,semiurban,0
+L0793,female,49,unmarried,0,graduate,salaried,91000,39000,25944,1500000,120,421,19.96,semiurban,0
+L0794,female,29,unmarried,0,illiterate,salaried,132000,0,44594,1400000,360,348,33.78,semiurban,0
+L0795,male,59,unmarried,0,graduate,self-employed,100000,0,30756,1300000,240,652,30.76,rural,0
+L0796,male,28,unmarried,0,higher studies,salaried,53000,0,25602,400000,24,688,48.31,urban,0
+L0797,male,52,married,3+,graduate,self-employed,138000,14000,31794,1200000,120,830,20.92,semiurban,1
+L0798,male,39,married,2,illiterate,self-employed,179000,52000,42072,1900000,120,688,18.21,urban,0
+L0799,female,37,unmarried,0,higher studies,self-employed,65000,29000,14476,400000,12,658,15.4,rural,0
+L0800,male,45,unmarried,0,graduate,salaried,107000,0,27160,400000,120,729,25.38,rural,1
+L0801,female,37,unmarried,0,graduate,self-employed,69000,25000,27318,600000,24,301,29.06,rural,0
+L0802,female,42,married,0,graduate,salaried,79000,0,27936,1400000,240,508,35.36,rural,0
+L0803,female,23,unmarried,0,illiterate,self-employed,153000,14000,48723,1400000,240,393,29.18,semiurban,0
+L0804,male,46,unmarried,0,graduate,self-employed,196000,42000,95265,200000,24,819,40.03,semiurban,0
+L0805,female,30,unmarried,0,higher studies,salaried,123000,0,55405,2000000,240,708,45.04,rural,0
+L0806,female,56,married,0,higher studies,salaried,35000,66000,16662,1300000,120,773,16.5,semiurban,0
+L0807,female,24,unmarried,0,higher studies,self-employed,161000,0,32812,500000,120,632,20.38,semiurban,0
+L0808,male,50,unmarried,0,illiterate,salaried,44000,0,9674,1600000,120,757,21.99,urban,0
+L0809,male,52,unmarried,0,graduate,salaried,147000,0,62585,1400000,120,384,42.57,rural,0
+L0810,male,32,unmarried,0,graduate,salaried,45000,33000,15502,300000,120,580,19.87,rural,0
+L0811,female,41,unmarried,0,graduate,salaried,143000,63000,34445,1700000,240,773,16.72,semiurban,1
+L0812,male,45,unmarried,0,graduate,self-employed,180000,24000,82409,1400000,360,508,40.4,urban,0
+L0813,female,34,unmarried,0,higher studies,salaried,145000,0,42116,1600000,120,792,29.05,rural,0
+L0814,female,26,married,1,higher studies,self-employed,26000,0,11693,1600000,240,657,44.97,semiurban,0
+L0815,female,55,married,1,graduate,self-employed,145000,77000,59422,1400000,240,365,26.77,rural,0
+L0816,male,49,married,3+,graduate,salaried,87000,0,22912,600000,60,513,26.34,semiurban,0
+L0817,male,52,unmarried,0,graduate,salaried,149000,60000,58519,700000,24,721,28.0,semiurban,1
+L0818,female,45,married,0,graduate,salaried,77000,63000,29649,200000,12,791,21.18,urban,1
+L0819,male,27,married,3+,graduate,self-employed,147000,45000,41067,700000,120,804,21.39,semiurban,1
+L0820,male,46,unmarried,0,graduate,self-employed,163000,38000,69290,800000,12,407,34.47,semiurban,0
+L0821,male,46,unmarried,0,graduate,salaried,68000,67000,27952,700000,60,625,20.71,urban,0
+L0822,male,54,unmarried,0,graduate,salaried,139000,24000,57992,1700000,240,548,35.58,semiurban,0
+L0823,female,58,unmarried,0,higher studies,self-employed,114000,0,53657,500000,12,334,47.07,semiurban,0
+L0824,female,58,married,2,higher studies,self-employed,39000,83000,10847,200000,60,650,8.89,semiurban,0
+L0825,male,38,married,2,graduate,self-employed,151000,18000,72926,600000,12,574,43.15,urban,0
+L0826,female,32,unmarried,0,graduate,salaried,28000,82000,13779,1400000,240,738,12.53,urban,0
+L0827,male,59,unmarried,0,graduate,salaried,106000,53000,37250,700000,60,421,23.43,urban,0
+L0828,female,44,married,2,graduate,salaried,130000,0,51841,2000000,120,464,39.88,rural,0
+L0829,female,32,married,0,higher studies,salaried,86000,92000,22951,300000,12,682,12.89,semiurban,0
+L0830,male,38,married,0,higher studies,salaried,36000,60000,14919,400000,24,445,15.54,semiurban,0
+L0831,female,30,unmarried,0,graduate,salaried,91000,0,35648,800000,60,357,39.17,semiurban,0
+L0832,male,27,unmarried,0,graduate,salaried,110000,0,54656,600000,24,711,49.69,urban,0
+L0833,male,50,married,3+,graduate,unemployed,8000,90000,2072,1200000,120,578,2.11,rural,0
+L0834,male,39,married,2,illiterate,salaried,51000,69000,18551,900000,24,749,15.46,semiurban,1
+L0835,male,49,married,1,higher studies,unemployed,27000,28000,8431,500000,12,664,15.33,semiurban,0
+L0836,female,51,unmarried,0,graduate,salaried,80000,29000,19884,600000,24,791,18.24,urban,1
+L0837,female,35,unmarried,0,graduate,self-employed,179000,26000,75785,500000,120,696,36.97,semiurban,0
+L0838,female,36,married,0,illiterate,salaried,144000,32000,30533,400000,120,561,17.35,urban,0
+L0839,male,45,married,0,graduate,salaried,141000,0,28942,1800000,360,756,20.53,semiurban,0
+L0840,female,37,unmarried,0,illiterate,self-employed,68000,0,33760,1600000,240,442,49.65,semiurban,0
+L0841,female,49,unmarried,0,graduate,salaried,67000,16000,14832,1200000,120,595,17.87,urban,0
+L0842,female,33,unmarried,0,graduate,salaried,103000,61000,37632,300000,24,817,22.95,rural,1
+L0843,female,26,unmarried,0,higher studies,self-employed,133000,36000,37904,1700000,360,545,22.43,urban,0
+L0844,female,56,married,3+,graduate,salaried,32000,31000,14344,800000,24,442,22.77,urban,0
+L0845,male,33,married,0,graduate,salaried,78000,83000,31945,800000,120,687,19.84,semiurban,0
+L0846,female,52,unmarried,0,graduate,self-employed,72000,56000,24528,1100000,240,769,19.16,urban,1
+L0847,female,57,married,1,graduate,salaried,121000,0,47223,1600000,120,341,39.03,rural,0
+L0848,female,27,unmarried,0,graduate,salaried,134000,61000,59488,200000,60,809,30.51,urban,1
+L0849,male,60,unmarried,0,graduate,salaried,116000,45000,26948,900000,60,395,16.74,rural,0
+L0850,female,45,married,3+,illiterate,self-employed,102000,0,23852,500000,12,735,23.38,rural,1
+L0851,female,41,married,0,graduate,self-employed,56000,0,21705,1800000,360,563,38.76,semiurban,0
+L0852,male,29,married,0,graduate,salaried,143000,0,35514,1600000,240,738,24.83,urban,0
+L0853,male,55,unmarried,0,higher studies,self-employed,165000,47000,44913,1200000,360,808,21.19,semiurban,1
+L0854,male,49,married,0,graduate,salaried,115000,53000,35329,1700000,360,544,21.03,semiurban,0
+L0855,female,53,unmarried,0,graduate,salaried,116000,95000,49664,1600000,120,343,23.54,semiurban,0
+L0856,female,56,married,2,graduate,salaried,123000,57000,51002,1300000,360,803,28.33,urban,1
+L0857,male,41,unmarried,0,graduate,salaried,104000,0,49121,1800000,360,434,47.23,urban,0
+L0858,female,49,married,1,graduate,salaried,86000,50000,18911,1900000,120,494,13.91,rural,0
+L0859,male,31,unmarried,0,graduate,salaried,59000,14000,12714,700000,12,817,17.42,rural,1
+L0860,male,43,unmarried,0,graduate,self-employed,45000,0,9126,1200000,120,520,20.28,semiurban,0
+L0861,female,33,married,0,graduate,salaried,81000,0,29872,700000,24,691,36.88,rural,0
+L0862,male,40,unmarried,0,graduate,self-employed,162000,9000,62757,1200000,240,823,36.7,semiurban,1
+L0863,male,35,married,0,graduate,salaried,136000,7000,29925,2000000,120,755,20.93,urban,0
+L0864,female,49,married,2,graduate,self-employed,103000,72000,24290,800000,60,813,13.88,semiurban,1
+L0865,male,44,unmarried,0,higher studies,unemployed,47000,51000,21272,700000,12,459,21.71,rural,0
+L0866,male,52,married,3+,graduate,salaried,80000,0,20539,1600000,120,674,25.67,semiurban,0
+L0867,male,57,unmarried,0,higher studies,salaried,51000,14000,14233,1900000,120,601,21.9,urban,0
+L0868,female,28,unmarried,0,graduate,salaried,92000,0,29577,500000,12,419,32.15,semiurban,0
+L0869,female,21,unmarried,0,graduate,salaried,132000,0,65074,800000,12,309,49.3,rural,0
+L0870,female,47,unmarried,0,graduate,salaried,86000,54000,32206,1600000,120,597,23.0,rural,0
+L0871,male,21,unmarried,0,higher studies,salaried,148000,60000,61194,1500000,360,656,29.42,urban,0
+L0872,female,54,unmarried,0,graduate,self-employed,63000,14000,27208,2000000,240,438,35.34,urban,0
+L0873,male,49,married,1,graduate,salaried,69000,0,34238,500000,120,564,49.62,rural,0
+L0874,male,47,unmarried,0,illiterate,salaried,78000,33000,19949,1300000,240,726,17.97,semiurban,0
+L0875,male,49,married,1,graduate,salaried,91000,0,22792,200000,120,591,25.05,semiurban,0
+L0876,female,44,unmarried,0,higher studies,salaried,103000,0,49742,300000,60,640,48.29,rural,0
+L0877,female,44,unmarried,0,illiterate,self-employed,163000,0,36597,1900000,360,833,22.45,rural,0
+L0878,male,21,married,0,higher studies,salaried,115000,0,32167,1600000,120,818,27.97,semiurban,0
+L0879,male,23,unmarried,0,graduate,salaried,48000,0,14016,1100000,360,689,29.2,rural,0
+L0880,female,60,married,0,illiterate,salaried,33000,0,15963,500000,24,583,48.37,urban,0
+L0881,female,51,married,3+,higher studies,salaried,108000,33000,43678,1300000,240,466,30.98,semiurban,0
+L0882,female,45,married,3+,illiterate,salaried,61000,40000,25718,1000000,12,647,25.46,urban,0
+L0883,male,22,unmarried,0,higher studies,salaried,115000,0,43413,1500000,240,629,37.75,rural,0
+L0884,female,22,married,0,graduate,salaried,26000,64000,12838,1400000,240,482,14.26,urban,0
+L0885,female,48,unmarried,0,graduate,unemployed,20000,0,8979,1800000,240,629,44.9,urban,0
+L0886,male,56,married,1,graduate,salaried,114000,15000,50882,1900000,240,456,39.44,semiurban,0
+L0887,female,39,married,2,graduate,salaried,149000,0,43161,2000000,360,743,28.97,semiurban,0
+L0888,male,39,unmarried,0,graduate,salaried,139000,0,68148,200000,24,542,49.03,urban,0
+L0889,female,44,unmarried,0,higher studies,self-employed,133000,0,61320,900000,24,465,46.11,rural,0
+L0890,male,37,unmarried,0,higher studies,salaried,104000,23000,23239,1800000,240,346,18.3,semiurban,0
+L0891,female,41,unmarried,0,graduate,self-employed,125000,96000,44753,1600000,240,398,20.25,semiurban,0
+L0892,female,35,unmarried,0,graduate,salaried,70000,5000,16072,1500000,360,732,21.43,rural,0
+L0893,male,48,married,3+,illiterate,self-employed,195000,0,47721,1500000,360,701,24.47,urban,1
+L0894,female,52,unmarried,0,graduate,self-employed,150000,90000,60859,1500000,240,442,25.36,rural,0
+L0895,female,43,married,1,higher studies,unemployed,37000,0,14635,1800000,120,493,39.55,rural,0
+L0896,female,42,married,0,higher studies,salaried,134000,0,32629,1400000,240,814,24.35,semiurban,0
+L0897,male,40,married,1,graduate,salaried,56000,28000,19862,700000,12,787,23.65,urban,1
+L0898,male,47,unmarried,0,illiterate,salaried,48000,31000,22118,1800000,240,466,28.0,semiurban,0
+L0899,female,23,unmarried,0,graduate,salaried,82000,68000,27938,600000,60,658,18.63,semiurban,0
+L0900,female,60,married,3+,graduate,salaried,117000,98000,39617,900000,60,561,18.43,rural,0
+L0901,male,49,unmarried,0,illiterate,salaried,67000,100000,30419,700000,12,306,18.21,rural,0
+L0902,female,53,married,2,higher studies,salaried,74000,0,26181,600000,12,710,35.38,urban,1
+L0903,male,47,married,1,graduate,salaried,78000,32000,21729,1400000,240,536,19.75,semiurban,0
+L0904,female,33,married,3+,graduate,self-employed,103000,65000,32416,1500000,360,562,19.3,rural,0
+L0905,male,58,married,1,graduate,salaried,95000,79000,21639,2000000,240,440,12.44,rural,0
+L0906,female,36,unmarried,0,graduate,self-employed,87000,0,37376,1900000,360,744,42.96,urban,0
+L0907,female,39,married,3+,graduate,salaried,147000,0,62573,2000000,360,837,42.57,semiurban,0
+L0908,female,30,married,3+,graduate,salaried,41000,39000,19301,700000,12,587,24.13,urban,0
+L0909,female,36,married,2,graduate,self-employed,64000,0,30270,900000,120,848,47.3,semiurban,0
+L0910,female,57,married,0,graduate,self-employed,114000,64000,45119,300000,24,432,25.35,semiurban,0
+L0911,female,57,married,2,graduate,salaried,34000,0,7185,600000,12,442,21.13,semiurban,0
+L0912,male,28,married,1,illiterate,salaried,83000,0,38983,1900000,240,665,46.97,urban,0
+L0913,female,43,unmarried,0,graduate,salaried,72000,47000,34671,1800000,240,513,29.14,rural,0
+L0914,female,60,unmarried,0,graduate,self-employed,104000,0,38218,2000000,120,456,36.75,rural,0
+L0915,female,50,married,3+,graduate,salaried,121000,92000,54121,1100000,240,592,25.41,rural,0
+L0916,male,48,unmarried,0,higher studies,salaried,32000,13000,14491,1100000,240,342,32.2,semiurban,0
+L0917,male,50,unmarried,0,graduate,salaried,61000,0,18775,1500000,360,792,30.78,urban,0
+L0918,female,46,married,1,graduate,salaried,25000,67000,11184,2000000,240,716,12.16,semiurban,0
+L0919,male,60,married,0,graduate,salaried,150000,0,33442,2000000,360,374,22.29,rural,0
+L0920,male,41,unmarried,0,higher studies,self-employed,168000,0,66760,800000,60,740,39.74,semiurban,1
+L0921,male,44,married,0,graduate,salaried,102000,0,43510,900000,24,317,42.66,rural,0
+L0922,male,41,married,3+,graduate,salaried,143000,29000,32309,1200000,360,674,18.78,urban,0
+L0923,male,21,married,1,graduate,self-employed,128000,95000,34835,1000000,12,553,15.62,semiurban,0
+L0924,female,46,unmarried,0,higher studies,salaried,81000,0,30244,1800000,240,312,37.34,urban,0
+L0925,male,49,married,3+,higher studies,self-employed,33000,87000,16132,1300000,360,572,13.44,rural,0
+L0926,female,55,married,3+,graduate,unemployed,12000,35000,3547,2000000,360,611,7.55,rural,0
+L0927,female,31,married,3+,graduate,salaried,84000,0,33427,1900000,240,682,39.79,urban,0
+L0928,male,41,married,2,graduate,salaried,84000,58000,41757,400000,12,341,29.41,urban,0
+L0929,male,28,married,1,graduate,salaried,75000,0,36667,1700000,120,632,48.89,rural,0
+L0930,female,26,unmarried,0,graduate,salaried,96000,75000,45433,1900000,240,716,26.57,urban,0
+L0931,male,27,married,1,higher studies,self-employed,163000,0,70706,1200000,360,390,43.38,urban,0
+L0932,female,34,married,3+,graduate,salaried,87000,38000,38806,800000,60,598,31.04,urban,0
+L0933,male,59,unmarried,0,graduate,self-employed,53000,0,12713,500000,24,759,23.99,semiurban,1
+L0934,male,54,married,3+,graduate,salaried,44000,0,14909,1300000,120,815,33.88,semiurban,0
+L0935,female,58,married,2,illiterate,salaried,49000,8000,19894,1600000,360,316,34.9,semiurban,0
+L0936,female,26,married,2,higher studies,self-employed,64000,72000,27062,600000,24,545,19.9,rural,0
+L0937,male,42,married,3+,graduate,self-employed,120000,0,31857,1000000,12,577,26.55,semiurban,0
+L0938,female,34,unmarried,0,higher studies,salaried,140000,0,33953,1800000,360,770,24.25,semiurban,0
+L0939,male,51,unmarried,0,graduate,salaried,115000,83000,53200,1400000,360,593,26.87,semiurban,0
+L0940,male,56,unmarried,0,illiterate,self-employed,101000,0,31876,1700000,360,840,31.56,urban,0
+L0941,female,58,unmarried,0,graduate,self-employed,59000,24000,16153,1600000,120,712,19.46,urban,0
+L0942,female,33,unmarried,0,graduate,self-employed,170000,0,58156,1600000,120,736,34.21,rural,1
+L0943,female,48,married,1,graduate,unemployed,36000,0,14751,700000,24,568,40.98,urban,0
+L0944,male,58,unmarried,0,graduate,salaried,98000,6000,37211,1500000,240,333,35.78,rural,0
+L0945,male,57,unmarried,0,graduate,self-employed,88000,78000,19913,1400000,240,824,12.0,rural,1
+L0946,female,45,unmarried,0,higher studies,self-employed,104000,0,25255,600000,60,554,24.28,semiurban,0
+L0947,female,38,married,2,illiterate,salaried,49000,98000,14792,600000,120,519,10.06,rural,0
+L0948,female,27,unmarried,0,graduate,salaried,81000,0,34725,1000000,120,350,42.87,urban,0
+L0949,male,51,unmarried,0,graduate,salaried,80000,83000,20485,1300000,240,652,12.57,semiurban,0
+L0950,male,57,married,2,higher studies,salaried,102000,0,29379,1000000,24,587,28.8,rural,0
+L0951,female,39,unmarried,0,graduate,salaried,127000,0,29612,1800000,120,805,23.32,rural,0
+L0952,male,45,unmarried,0,higher studies,self-employed,90000,29000,25159,1400000,240,700,21.14,semiurban,0
+L0953,female,52,married,3+,higher studies,self-employed,159000,14000,42263,200000,12,756,24.43,semiurban,1
+L0954,male,41,married,3+,graduate,salaried,76000,85000,24320,200000,12,330,15.11,urban,0
+L0955,male,50,unmarried,0,graduate,self-employed,84000,0,35973,900000,12,828,42.83,semiurban,0
+L0956,male,32,married,1,graduate,unemployed,30000,0,14369,1100000,240,334,47.9,semiurban,0
+L0957,male,52,married,3+,graduate,salaried,119000,0,32340,200000,60,551,27.18,semiurban,0
+L0958,male,57,unmarried,0,illiterate,salaried,105000,0,44087,1300000,240,520,41.99,semiurban,0
+L0959,female,53,married,1,graduate,salaried,147000,47000,69090,1400000,240,801,35.61,urban,1
+L0960,female,58,married,3+,higher studies,salaried,60000,36000,14656,600000,12,388,15.27,semiurban,0
+L0961,male,50,married,2,higher studies,salaried,88000,45000,43121,600000,120,820,32.42,urban,1
+L0962,female,58,unmarried,0,graduate,self-employed,36000,66000,12678,1900000,120,478,12.43,semiurban,0
+L0963,female,41,married,3+,graduate,salaried,146000,0,44607,1300000,240,692,30.55,semiurban,0
+L0964,female,22,married,1,graduate,self-employed,105000,49000,23027,800000,24,304,14.95,semiurban,0
+L0965,male,39,unmarried,0,graduate,salaried,75000,100000,27784,2000000,360,732,15.88,urban,0
+L0966,male,47,unmarried,0,higher studies,salaried,54000,0,14723,2000000,360,828,27.26,rural,0
+L0967,male,56,married,0,graduate,unemployed,10000,0,2625,1500000,360,519,26.25,semiurban,0
+L0968,female,58,married,3+,higher studies,self-employed,54000,0,16915,700000,12,531,31.32,semiurban,0
+L0969,male,35,married,2,graduate,salaried,149000,0,40209,1600000,360,513,26.99,urban,0
+L0970,female,55,unmarried,0,illiterate,salaried,86000,25000,27637,2000000,120,376,24.9,urban,0
+L0971,female,48,married,0,graduate,self-employed,147000,0,41833,1500000,240,759,28.46,rural,0
+L0972,male,31,unmarried,0,graduate,salaried,44000,0,12407,1200000,240,579,28.2,rural,0
+L0973,female,47,married,2,graduate,salaried,72000,75000,28084,1700000,120,710,19.1,semiurban,0
+L0974,male,53,unmarried,0,graduate,self-employed,118000,75000,49657,1900000,240,794,25.73,rural,1
+L0975,female,22,married,3+,graduate,self-employed,77000,72000,27297,1600000,120,682,18.32,urban,0
+L0976,male,59,unmarried,0,graduate,unemployed,12000,88000,5949,400000,24,705,5.95,rural,1
+L0977,male,21,married,3+,illiterate,salaried,79000,0,33659,1600000,360,457,42.61,rural,0
+L0978,female,27,unmarried,0,graduate,self-employed,195000,91000,61069,2000000,240,623,21.35,semiurban,0
+L0979,female,43,unmarried,0,higher studies,self-employed,124000,0,46194,400000,60,744,37.25,urban,1
+L0980,male,40,unmarried,0,higher studies,self-employed,184000,0,53644,1200000,240,334,29.15,semiurban,0
+L0981,male,25,married,3+,graduate,salaried,86000,0,19732,2000000,120,397,22.94,rural,0
+L0982,male,59,unmarried,0,graduate,self-employed,86000,89000,17913,1100000,120,570,10.24,semiurban,0
+L0983,male,33,married,1,graduate,unemployed,49000,73000,15455,600000,60,684,12.67,rural,0
+L0984,female,28,unmarried,0,graduate,unemployed,24000,0,5085,1100000,240,549,21.19,semiurban,0
+L0985,female,32,married,0,graduate,salaried,71000,9000,17668,900000,60,596,22.09,urban,0
+L0986,male,23,married,2,graduate,salaried,83000,20000,21265,1100000,240,582,20.65,semiurban,0
+L0987,male,46,married,3+,graduate,unemployed,17000,0,4379,1000000,24,644,25.76,semiurban,0
+L0988,female,57,unmarried,0,illiterate,salaried,91000,0,41574,1200000,120,556,45.69,rural,0
+L0989,female,25,unmarried,0,graduate,self-employed,158000,0,53776,800000,12,670,34.04,urban,0
+L0990,female,56,unmarried,0,graduate,self-employed,150000,87000,53803,800000,24,570,22.7,urban,0
+L0991,male,53,married,3+,higher studies,self-employed,147000,41000,34725,1300000,240,390,18.47,semiurban,0
+L0992,male,35,married,1,higher studies,self-employed,159000,0,38877,1700000,360,737,24.45,rural,0
+L0993,female,22,unmarried,0,graduate,salaried,31000,0,7373,1800000,360,521,23.78,semiurban,0
+L0994,female,55,unmarried,0,higher studies,self-employed,87000,46000,22756,1400000,360,560,17.11,rural,0
+L0995,male,34,unmarried,0,graduate,self-employed,67000,0,16807,2000000,240,579,25.09,urban,0
+L0996,female,57,unmarried,0,higher studies,salaried,67000,7000,17185,1800000,240,485,23.22,semiurban,0
+L0997,male,30,married,3+,graduate,self-employed,134000,33000,56802,200000,60,628,34.01,urban,0
+L0998,female,54,unmarried,0,graduate,salaried,53000,0,23043,1300000,240,566,43.48,rural,0
+L0999,female,45,unmarried,0,graduate,self-employed,100000,0,43758,200000,24,305,43.76,semiurban,0
+L1000,female,58,unmarried,0,illiterate,salaried,94000,0,32441,200000,60,573,34.51,rural,0
